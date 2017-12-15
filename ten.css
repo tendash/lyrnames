@@ -1,7 +1,7 @@
 /*rank css for Ten*/
 i.tp {
     font-style: normal;
-    color: #FFA500;
+    color: #ff1000;
     font-family: Comic Sans MS, Arial, Verdana, sans-serif;
 }
 i.tpy { 
@@ -10,11 +10,11 @@ i.tpy {
 }
 i.tpy::before { content: "["; }
 i.tpy::after { content: "] "; }
-i.tp::after { content: " Rin Tin Ten"; }
+i.tp::after { content: " I can Change this now"; }
 
 
-div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #EB6E1E !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; }
-div.chatline span[style*="color:#338833"] [href*="Ten"] .chatname { color: #EB6E1E !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; }
+div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #ff1000 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; }
+div.chatline span[style*="color:#338833"] [href*="Ten"] .chatname { color: #ff1000 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; }
 
 /*
 original:
