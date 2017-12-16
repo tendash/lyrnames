@@ -12,12 +12,12 @@ i.tpy::before { content: "["; }
 i.tpy::after { content: "] "; }
 i.tp {
     font-style: normal;
-    background: linear-gradient(177deg,#041E41,#f00, #FF4C00);
+    background: linear-gradient(#041E41,#FF4C00);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-i.tw::after {
+i.tp::after {
 	content: " The Best";
 }
 
