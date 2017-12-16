@@ -1,8 +1,10 @@
 /*rank css for Ten*/
 i.tp {
     font-style: normal;
-    color: #FFA500;
-    font-family: Comic Sans MS, Arial, Verdana, sans-serif;
+    background: linear-gradient(#041E41,#FF4C00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 i.tpy { 
     font-style: normal;
@@ -10,16 +12,9 @@ i.tpy {
 }
 i.tpy::before { content: "["; }
 i.tpy::after { content: "] "; }
-i.tp {
-    font-style: normal;
-    background: linear-gradient(#041E41,#FF4C00);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+
 }
-i.tp::after {
-	content: " The Best";
-}
+i.tp::after {content: " The Best";}
 
 div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #EB6E1E !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; }
 div.chatline span[style*="color:#338833"] [href*="Ten"] .chatname { color: #EB6E1E !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; }
