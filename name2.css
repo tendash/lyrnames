@@ -14,8 +14,8 @@ i.tpy::after { content: "] "; }
 
 i.tp::after {content: " The Best";}
 
-div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #EB6E1E !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; }
-div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #EB6E1E !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; }
+div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #FF4C00 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; }
+div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #FF4C00 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; font-variant: small-caps;}
 
 /*
 original:
