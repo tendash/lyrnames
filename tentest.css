@@ -10,7 +10,7 @@ i.tpy {
 }
 i.tpy::before { content: "["; }
 i.tpy::after { content: "] "; }
-i.tp::after { content: " I can Change this now"; }
+i.tp::after { content: url("http://www.3dtextmaker.com/queue/Fuck_You_33066.gif");}
 
 
 div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #ff1000 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; }
