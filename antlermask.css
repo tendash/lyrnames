@@ -11,7 +11,7 @@ i.aty {
 i.aty::before { content: "["; }
 i.aty::after { content: "] "; }
 
-i.tp::after {content: " Endlessly Blazing";}
+i.at::after {content: " Endlessly Blazing";}
 
 div.chatline span[style*="color:#33CC33"] [href*="antlermask"] .chatname { color: #85c1e9 !important; font-family: Comic Sans MS, Verdana, Arial;}
 div.chatline span[style*="color:#33CC33"] [href*="antlermask"] .chatname { color: #85c1e9 !important; font-family: Comic Sans MS, Verdana, Arial; }
