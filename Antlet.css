@@ -1,0 +1,18 @@
+/* <font color= #FFFF00>[XX]</font> <font color= #85c1e9>Endlessly Blazing</font> */
+
+i.tp {
+       color: #85c1e9;
+ }
+i.tpy { 
+    font-style: normal;
+    color: #ff0;
+}
+i.tpy::before { content: "["; }
+i.tpy::after { content: "] "; }
+
+i.tp::after {content: " Endlessly Blazing";}
+
+div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #85c1e9 !important; font-family: Comic Sans MS, Verdana, Arial;}
+div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #85c1e9 !important; font-family: Comic Sans MS, Verdana, Arial; }
+/* for officer chat */
+div.chatline span[style*="color:#338833"] [href*="Ten"] .chatname { color: #85c1e9 !important; font-family: Comic Sans MS, Verdana, Arial;}
