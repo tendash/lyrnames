@@ -1,0 +1,19 @@
+/* <font color= #FFFF00>[XX]</font> <font color= #85c1e9>Endlessly Blazing</font> */
+/*<i class=tpy>XX</i> <i class=tp></i><link rel=stylesheet href=https://goo.gl/YVPffz> */
+
+i.tp {
+       color: #85c1e9;
+ }
+i.tpy { 
+    font-style: normal;
+    color: #ff0;
+}
+i.tpy::before { content: "["; }
+i.tpy::after { content: "] "; }
+
+i.tp::after {content: " Endlessly Blazing";}
+
+div.chatline span[style*="color:#33CC33"] [href*="antlermask"] .chatname { color: #85c1e9 !important; font-family: Comic Sans MS, Verdana, Arial;}
+div.chatline span[style*="color:#33CC33"] [href*="antlermask"] .chatname { color: #85c1e9 !important; font-family: Comic Sans MS, Verdana, Arial; }
+/* for officer chat */
+div.chatline span[style*="color:#338833"] [href*="antlermask"] .chatname { color: #85c1e9 !important; font-family: Comic Sans MS, Verdana, Arial;}
