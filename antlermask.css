@@ -1,15 +1,15 @@
 /* <font color= #FFFF00>[XX]</font> <font color= #85c1e9>Endlessly Blazing</font> */
-/*<i class=tpy>XX</i> <i class=tp></i><link rel=stylesheet href=https://goo.gl/YVPffz> */
+/*<i class=aty>XX</i> <i class=at></i><link rel=stylesheet href=https://goo.gl/RBDfC3> */
 
-i.tp {
+i.at {
        color: #85c1e9;
  }
-i.tpy { 
+i.aty { 
     font-style: normal;
     color: #ff0;
 }
-i.tpy::before { content: "["; }
-i.tpy::after { content: "] "; }
+i.aty::before { content: "["; }
+i.aty::after { content: "] "; }
 
 i.tp::after {content: " Endlessly Blazing";}
 
