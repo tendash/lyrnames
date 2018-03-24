@@ -1,11 +1,11 @@
 /*<i class=tpy>XXXVIII</i> <i class=tp></i><link rel=stylesheet href=https://goo.gl/imNEha> */
 /*rank css for Ten*/
-<link href='https://fonts.googleapis.com/css?family=Faster One' rel='stylesheet'>
+href='https://fonts.googleapis.com/css?family=Finger Paint' rel='stylesheet'>
 i.tp {
-    font-style: bold;
-    font-variant: small-caps;
+    /*font-style: bold;*/
+    /*font-variant: small-caps;*/
     color: #FF4C00;
-    font-family: 'Faster One', Arial, Verdana, sans-serif;
+    font-family: 'Finger Paint'
 }
 i.tpy { 
     font-style: normal;
@@ -16,10 +16,10 @@ i.tpy::after { content: "] "; }
 
 i.tp::after {content: " The Best";}
 
-div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: rgb(255, 76, 0) !important; font-weight: bold; font-family: 'Faster One', Verdana, Arial;font-variant: small-caps; }
-div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: rgb(255, 76, 0) !important; font-weight: bold; font-family: 'Faster One', Verdana, Arial; font-variant: small-caps;}
+div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: rgb(255, 76, 0) !important; font-weight: bold; font-family: 'Finger Paint';}
+div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: rgb(255, 76, 0) !important; font-weight: bold; font-family: 'Finger Paint';}
 /* for officer chat */
-div.chatline span[style*="color:#338833"] [href*="Ten"] .chatname { color: rgb(255, 76, 0) !important; font-weight: bold; font-family: 'Faster One', Verdana, Arial; font-variant: small-caps;}
+div.chatline span[style*="color:#338833"] [href*="Ten"] .chatname { color: rgb(255, 76, 0) !important; font-weight: bold; font-family: 'Finger Paint';}
 /*
 original:
 <font color= #FFFF00>[XX]</font> <font color= #FFA500>The Real Ten</font>
