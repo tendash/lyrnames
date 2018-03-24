@@ -1,0 +1,31 @@
+/*rank css for caboosemdw*/
+
+i.cay { 
+font-style: normal;
+color: #ff0;
+}
+i.cay::before { content: "["; }
+i.cay::after { content: "] "; }
+
+i.cabor {
+font-style: normal;
+    color: #ffffff;
+}
+i.cabor::before, i.cabor::after {
+font-style: normal;
+}
+i.cabor::before {
+color: #ff0000;
+content: "red";
+}
+i.cabor::after {
+color: #0000ff;
+content: "blue";
+}
+
+/* div.chatline span[style*="color:#33CC33"] [href*="caboosemdw"] .chatname { color: #2b6be4 !important;  font-family: Comic Sans MS, Verdana, Arial; }
+div.chatline span[style*="color:#33CC33"] [href*="caboosemdw"] .chatname { color: #2b6be4 !important; font-family: Comic Sans MS, Verdana, Arial; }
+*/
+/* for officer chat */
+div.chatline span[style*="color:#338833"] [href*="caboosemdw"] .chatname { color: #2b6be4 !important; font-family: Comic Sans MS, Verdana, Arial; }
+
