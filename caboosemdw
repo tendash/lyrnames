@@ -1,12 +1,12 @@
 /*rank css for caboosemdw*/
 /* <i class=caboy>XIX</i><i class=cabor>vs</i><link rel=stylesheet href=https://goo.gl/mh8hXk> */
 
-i.cay { 
+i.caboy { 
 font-style: normal;
 color: #ff0;
 }
-i.cay::before { content: "["; }
-i.cay::after { content: "] "; }
+i.caboy::before { content: "["; }
+i.caboy::after { content: "] "; }
 
 i.cabor {
 font-style: normal;
@@ -24,6 +24,7 @@ color: #0000ff;
 content: "blue";
 }
 
+i.cabor::after {content: " VS";}
 /* div.chatline span[style*="color:#33CC33"] [href*="caboosemdw"] .chatname { color: #2b6be4 !important;  font-family: Comic Sans MS, Verdana, Arial; }
 div.chatline span[style*="color:#33CC33"] [href*="caboosemdw"] .chatname { color: #2b6be4 !important; font-family: Comic Sans MS, Verdana, Arial; }
 */
