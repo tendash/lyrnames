@@ -17,7 +17,7 @@ i.tp::after {content: " The Best";}
 div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #FF4C00 !important; font-weight: 100; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; }
 div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #FF4C00 !important; font-weight: 100; font-family: Comic Sans MS, Verdana, Arial; font-variant: small-caps;}
 /* for officer chat */
-div.chatline span[style*="color:#338833"] [href*="Ten"] .chatname { color: #FF4C00 !important; font-weight: 900; font-family: Comic Sans MS, Verdana, Arial; font-variant: small-caps;}
+div.chatline span[style*="color:#338833"] [href*="Ten"] .chatname { color: #FF4C00 !important; font-weight: 100; font-family: Comic Sans MS, Verdana, Arial; font-variant: small-caps;}
 /*
 original:
 <font color= #FFFF00>[XX]</font> <font color= #FFA500>The Real Ten</font>
