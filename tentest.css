@@ -1,8 +1,11 @@
+/*<i class=tpy>XXXVIII</i> <i class=tp></i><link rel=stylesheet href=https://goo.gl/imNEha> */
 /*rank css for Ten*/
+<link href='https://fonts.googleapis.com/css?family=Faster One' rel='stylesheet'>
 i.tp {
-    font-style: normal;
-    color: #ff1000;
-    font-family: Comic Sans MS, Arial, Verdana, sans-serif;
+    font-style: bold;
+    font-variant: small-caps;
+    color: #FF4C00;
+    font-family: 'Faster One', Arial, Verdana, sans-serif;
 }
 i.tpy { 
     font-style: normal;
@@ -10,12 +13,13 @@ i.tpy {
 }
 i.tpy::before { content: "["; }
 i.tpy::after { content: "] "; }
-i.tp::after { content: url("http://www.3dtextmaker.com/queue/Fuck_You_33066.gif");}
 
+i.tp::after {content: " The Best";}
 
-div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #ff1000 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; }
-div.chatline span[style*="color:#338833"] [href*="Ten"] .chatname { color: #ff1000 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; }
-
+div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: rgb(255, 76, 0) !important; font-weight: bold; font-family: 'Faster One', Verdana, Arial;font-variant: small-caps; }
+div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: rgb(255, 76, 0) !important; font-weight: bold; font-family: 'Faster One', Verdana, Arial; font-variant: small-caps;}
+/* for officer chat */
+div.chatline span[style*="color:#338833"] [href*="Ten"] .chatname { color: rgb(255, 76, 0) !important; font-weight: bold; font-family: 'Faster One', Verdana, Arial; font-variant: small-caps;}
 /*
 original:
 <font color= #FFFF00>[XX]</font> <font color= #FFA500>The Real Ten</font>
@@ -25,5 +29,5 @@ new:
 
 color for rank:
 #EB6E1E
+<i class=tpy>XXXIl</i> <i class=tp></i><link rel=stylesheet href=https://goo.gl/ib5e3y>
 */
-/*<i class=tpy>XXXIl</i> <i class=tp></i><link rel=stylesheet href=https://goo.gl/ShKKNN>*/
