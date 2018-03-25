@@ -1,0 +1,17 @@
+/* rank css for zaan */
+/* @import url('https://fonts.googleapis.com/css?family=Merienda'); */
+
+i.zaa { 
+font-style: normal;
+color: #FF69B4;
+}
+i.zay {
+	font-style: normal;
+	color: #ff0;
+}
+i.zay::before { content: "["; }
+i.zay::after { content: "] "; }
+i.zaa::after { content: url("zaan123.png");}
+
+div.chatline span[style*="color:#33CC33"] [href*="Zaan"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: Verdana, Arial; }
+div.chatline span[style*="color:#338833"] [href*="Zaan"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: Verdana, Arial; }
