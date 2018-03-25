@@ -24,9 +24,9 @@ color: #0000ff;
 content: "blue";
 }
 
-/* div.chatline span[style*="color:#33CC33"] [href*="caboosemdw"] .chatname { color:#2b6be4 !important;  font-family: Comic Sans MS, Verdana, Arial; }
+ div.chatline span[style*="color:#33CC33"] [href*="caboosemdw"] .chatname { color:#2b6be4 !important;  font-family: Comic Sans MS, Verdana, Arial; }
 div.chatline span[style*="color:#33CC33"] [href*="caboosemdw"] .chatname { color:#2b6be4 !important; font-family: Comic Sans MS, Verdana, Arial; }
-*/
+
 /* for officer chat */
 div.chatline span[style*="color:#338833"] [href*="caboosemdw"] .chatname { color:#2b6be4 !important; font-family: Comic Sans MS, Verdana, Arial; }
 
