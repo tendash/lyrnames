@@ -26,7 +26,7 @@ content: "e";
 i.tp::before {
 color: #ff0000;
 content: "n";
-   
+}   
 
 
 div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; }
