@@ -1,22 +1,6 @@
 /*<i class=tpy>XXXVIII</i> <i class=tp></i><link rel=stylesheet href=https://goo.gl/imNEha> */
 /*rank css for Ten*/
-i.tpr1 {
-    font-style: bold;
-    font-variant: small-caps;
-    color: #ff0000;
-    font-family: Comic Sans MS, Arial, Verdana, sans-serif;
-    
-i.tpr2 {
-    font-style: bold;
-    font-variant: small-caps;
-    color: #ff0000;
-    font-family: Comic Sans MS, Arial, Verdana, sans-serif;
-i.tpw {
-    font-style: bold;
-    font-variant: small-caps;
-    color: #ffffff;
-    font-family: Comic Sans MS, Arial, Verdana, sans-serif;
-}
+
 i.tpy { 
     font-style: normal;
     color: #ff0;
@@ -24,20 +8,31 @@ i.tpy {
 i.tpy::before { content: "["; }
 i.tpy::after { content: "] "; }
 
-i.tpr1::after {content: " The Best";}
-i.tpr1::before { content: "e";}
-    
-i.tpw::after {content: "T";}
-i.tpw::before { content: "n";}
-    
-i.tpr2::after {content: "e";}
+i.tp::after {content: " The Best";}
+
+i.tp::before, i.tp::after {
+font-style: bold;
+font-variant: small-caps;
+font-family: Comic Sans MS, Arial, Verdana, sans-serif;
+}
+i.tp::before {
+color: #ff0000;
+content: "T";
+}
+i.tp::after {
+color: #ffffff;
+content: "e";
+}
+i.tp::before {
+color: #ff0000;
+content: "n";
    
 
 
-div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: rgb(255, 76, 0) !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; }
+div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname {font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; }
 
 /* for officer chat */
-div.chatline span[style*="color:#338833"] [href*="Ten"] .chatname { color: rgb(255, 76, 0) !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; font-variant: small-caps;}
+div.chatline span[style*="color:#338833"] [href*="Ten"] .chatname { font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; font-variant: small-caps;}
 /*
 original:
 <font color= #FFFF00>[XX]</font> <font color= #FFA500>The Real Ten</font>
