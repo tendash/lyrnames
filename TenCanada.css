@@ -1,9 +1,20 @@
 /*<i class=tpy>XXXVIII</i> <i class=tp></i><link rel=stylesheet href=https://goo.gl/imNEha> */
 /*rank css for Ten*/
-i.tp {
+i.tpr1 {
     font-style: bold;
     font-variant: small-caps;
-    color: #FF4C00;
+    color: #ff0000;
+    font-family: Comic Sans MS, Arial, Verdana, sans-serif;
+    
+i.tpr2 {
+    font-style: bold;
+    font-variant: small-caps;
+    color: #ff0000;
+    font-family: Comic Sans MS, Arial, Verdana, sans-serif;
+i.tpw {
+    font-style: bold;
+    font-variant: small-caps;
+    color: #ffffff;
     font-family: Comic Sans MS, Arial, Verdana, sans-serif;
 }
 i.tpy { 
@@ -13,7 +24,14 @@ i.tpy {
 i.tpy::before { content: "["; }
 i.tpy::after { content: "] "; }
 
-i.tp::after {content: " The Best";}
+i.tpr1::after {content: " The Best";}
+i.tpr1::before { content: "e";}
+    
+i.tpw::after {content: "T";}
+i.tpw::before { content: "n";}
+    
+i.tpr2::after {content: "e";}
+   
 
 
 div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: rgb(255, 76, 0) !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; }
