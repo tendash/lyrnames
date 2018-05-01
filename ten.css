@@ -13,7 +13,7 @@ i.tpy {
 i.tpy::before { content: "["; }
 i.tpy::after { content: "] "; }
 
-i.tp::after {content: " The Best";}
+i.tp::after {content: " Prefect Ten";}
 
 div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #c39953 !important; font-weight: bold; font-family: Impact, Charcoal, sans-serif;font-variant: small-caps; }
 
