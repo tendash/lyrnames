@@ -2,8 +2,8 @@
 /*rank css for Ten*/
 i.tp {
     font-style: bold;
-    font-variant: small-caps;
-    color: #c39953;
+    /* font-variant: caps; */
+    color: #d92121;
     font-family: Impact, Charcoal, sans-serif
 }
 i.tpy { 
@@ -15,10 +15,10 @@ i.tpy::after { content: "] "; }
 
 i.tp::after {content: " Prefect Ten";}
 
-div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #c39953 !important; font-weight: bold; font-family: Impact, Charcoal, sans-serif;font-variant: small-caps; }
+div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #d92121 !important; font-weight: bold; font-family: Impact, Charcoal, sans-serif; }
 
 /* for officer chat */
-div.chatline span[style*="color:#338833"] [href*="Ten"] .chatname { color: #c39953 !important; font-weight: bold; font-family: Impact, Charcoal, sans-serif; font-variant: small-caps;}
+div.chatline span[style*="color:#338833"] [href*="Ten"] .chatname { color: #d92121 !important; font-weight: bold; font-family: Impact, Charcoal, sans-serif; }
 /*
 original:
 <font color= #FFFF00>[XX]</font> <font color= #FFA500>The Real Ten</font>
