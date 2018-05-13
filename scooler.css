@@ -17,7 +17,7 @@ content: "Warrior";
 i.scot::before {
 font-style: normal;
 color: #A8AAA9;
-content: "of";
+content: " of ";
 }
 i.scos::before {
 font-style: normal;
