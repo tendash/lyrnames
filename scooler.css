@@ -19,23 +19,23 @@ i.scor::before {
 color: #000000;
 content: "Wa";
 }
-i.scor::after {
+i.scor::before {
 color: #2A2A2A;
 content: "rr";
 }
-i.scor::after {
+i.scor::before {
 color: #555555;
 content: "io";
 }
-i.scor::after {
+i.scor::before {
 color: #7F7F7F;
 content: "r o";
 }
-i.scor::after {
+i.scor::before {
 color: #AAAAAA;
 content: "f L";
 }
-i.scor::after {
+i.scor::before {
 color: #D4D4D4;
 content: "ig";
 }
