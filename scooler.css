@@ -10,17 +10,13 @@ i.scoy::after { content: "] "; }
 
 i.scor::before {
 font-style: normal;
-color: #000000;
-content: "War";
+color: #525653;
+content: "Warrior";
 }
-i.scor {
-font-style: normal;
-color: #555555;
-content: "rio";
 }
 i.scor::after {
 font-style: normal;
-color: #AAAAAA;
+color: #A8AAA9;
 content: "of";
 }
 i.scos::before {
