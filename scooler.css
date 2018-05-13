@@ -11,32 +11,22 @@ i.scoy::after { content: "] "; }
 i.scor::before {
 font-style: normal;
 color: #000000;
-content: "Wa";
+content: "War";
 }
 i.scor {
 font-style: normal;
-color: #333333;
-content: "rr";
+color: #555555;
+content: "rio";
 }
 i.scor::after {
 font-style: normal;
-color: #666666;
-content: "io";
+color: #AAAAAA;
+content: "of";
 }
 i.scos::before {
 font-style: normal;
-color: #999999;
-content: "r of L";
+color: #FFFFFF;
+content: "Light";
 }
 
-}
-i.scos::after {
-font-style: normal;
-color: #CCCCCC;
-content: "ig";
-}
-i.scot {
-font-style: normal;
-color: #FFFFFF;
-content: "ht";
-}
+
