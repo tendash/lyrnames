@@ -1,0 +1,52 @@
+/* rank css for Scooler  */
+/* Warrior of Light */
+
+i.scoy { 
+font-style: normal;
+color: #ff0;
+}
+i.scoy::before { content: "["; }
+i.scoy::after { content: "] "; }
+
+i.scor {
+font-style: normal;
+    color: #ffffff;
+}
+i.scor::before, i.scor::after {
+font-style: normal;
+}
+i.scor::before {
+color: #000000;
+content: "Wa";
+}
+i.scor::after {
+color: #2A2A2A;
+content: "rr";
+}
+i.scor::after {
+color: #555555;
+content: "io";
+}
+i.scor::after {
+color: #7F7F7F;
+content: "r o";
+}
+i.scor::after {
+color: #AAAAAA;
+content: "f L";
+}
+i.scor::after {
+color: #D4D4D4;
+content: "ig";
+}
+i.scor::after {
+color: #FFFFFF;
+content: "ht";
+}
+/* for guild chat */
+ /* div.chatline span[style*="color:#33CC33"] [href*="Scooler"] .chatname { color:#ffff00 !important;  font-family: Comic Sans MS, Verdana, Arial; }
+
+/* for officer chat */
+div.chatline span[style*="color:#338833"] [href*="Scooler"] .chatname { color:#ffff00 !important; font-family: Comic Sans MS, Verdana, Arial; }
+*/
+/* old colour #2b6be4 */
