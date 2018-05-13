@@ -15,27 +15,24 @@ content: "Wa";
 }
 i.scor {
 font-style: normal;
-color: #2A2A2A;
+color: #333333;
 content: "rr";
 }
 i.scor::after {
 font-style: normal;
-color: #555555;
+color: #666666;
 content: "io";
 }
 i.scos::before {
 font-style: normal;
-color: #7F7F7F;
-content: "r o";
+color: #999999;
+content: "r of L";
 }
-i.scos {
-font-style: normal;
-color: #AAAAAA;
-content: "f L";
+
 }
 i.scos::after {
 font-style: normal;
-color: #D4D4D4;
+color: #CCCCCC;
 content: "ig";
 }
 i.scot {
