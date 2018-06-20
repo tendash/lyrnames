@@ -7,7 +7,7 @@ i.scoy {
 font-style: normal;
 color: #ff0;
 }
-i.scoy::before { content: "[XVIII"; }
+i.scoy::before { content: "[XIX"; }
 i.scoy::after { content: "] "; }
 
 i.scor::before {
