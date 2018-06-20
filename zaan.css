@@ -15,4 +15,4 @@ i.zay::after { content: "] "; }
 i.zaa::after { content: url("https://cdn.rawgit.com/tendash/lyrnames/cd37c67e/zaan123.png");}
 
 div.chatline span[style*="color:#33CC33"] [href*="Zaan"] .chatname { color: #000000 !important; font-weight: bold; font-family: Verdana, Arial; font-size: 1000px; }
-div.chatline span[style*="color:#338833"] [href*="Zaan"] .chatname { color: #000000 !important; font-weight: bold; font-family: Verdana, Arial; font-size: 10000px; }
+div.chatline span[style*="color:#338833"] [href*="Zaan"] .chatname { color: #000000 !important; font-weight: bold; font-family: Verdana, Arial; font-size: 1000px; }
