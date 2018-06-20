@@ -1,11 +1,10 @@
-/*<i class=tpy>XXXVIII</i> <i class=tp></i><link rel=stylesheet href=https://goo.gl/imNEha> */
 /*rank css for Ten*/
 i.tp {
--    font-style: bold;	
--    /* font-variant: caps; */	
--    color: #d92121;	
--    font-family: Impact, Charcoal, sans-serif	
--}
+    font-style: bold;
+    font-variant: small-caps;
+    color: #FF4C00;
+    font-family: Comic Sans MS, Arial, Verdana, sans-serif;
+}
 i.tpy { 
     font-style: normal;
     color: #ff0;
