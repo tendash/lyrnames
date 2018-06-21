@@ -1,8 +1,9 @@
 /*rank css for Ten*/
 i.tp {
     font-style: bold;
-    font-variant: small-caps;
-    color: #FF4C00;
+    font-variant: caps;
+    color: #D4AF37;
+    font size 150%;
     font-family: Comic Sans MS, Arial, Verdana, sans-serif;
 }
 i.tpy { 
@@ -12,11 +13,11 @@ i.tpy {
 i.tpy::before { content: "["; }
 i.tpy::after { content: "] "; }
 
-i.tp::after {content: " The Best";}
+i.tp::after {content: " Perfect";}
 
-div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #049FA4 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; }
+div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #049FA4 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; font size 150%; }
 /* for officer chat */
-div.chatline span[style*="color:#338833"] [href*="Ten"] .chatname { color: #049FA4 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; font-variant: small-caps;}
+div.chatline span[style*="color:#338833"] [href*="Ten"] .chatname { color: #049FA4 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; font-variant: small-caps;font size 150%;}
 /*
 original:
 <font color= #FFFF00>[XX]</font> <font color= #FFA500>The Real Ten</font>
