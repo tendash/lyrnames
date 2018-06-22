@@ -1,0 +1,18 @@
+/*rank css for Scooler*/
+/* tp */
+i.sco {
+    color: #C0C0C0;
+    font-style: normal;
+}
+i.scy { 
+    font-style: normal;
+    color: #ff0;
+}
+i.scy::before { content: "["; }
+i.scy::after { content: "] "; }
+
+i.sc::after {content: " Warrior of Light";}
+
+div.chatline span[style*="color:#33CC33"] [href*="Scooler"] .chatname { color: #C0C0C0 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; font-size 150%; }
+/* for officer chat */
+div.chatline span[style*="color:#338833"] [href*="Scooler"] .chatname { color: #C0C0C0 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
