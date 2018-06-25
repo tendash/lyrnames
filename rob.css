@@ -1,0 +1,17 @@
+/*rank css for Sheogorath*/
+/* tp */
+i.sh {
+    color: #FF69B4;
+    font-style: normal;
+}
+i.shy { 
+    font-style: normal;
+    color: #ff0;
+}
+i.scy::before { content: "["; }
+i.scy::after { content: "] "; }
+
+i.sc::after {content: " TheMadGod";}
+
+div.chatline span[style*="color:#33CC33"] [href*="Sheogorath"] .chatname { color: ##FF69B4 !important; font-family: Comic Sans MS, Verdana, Arial; }
+div.chatline span[style*="color:#338833"] [href*="Sheogorath"] .chatname { color: ##FF69B4 !important; font-family: Comic Sans MS, Verdana, Arial; }
