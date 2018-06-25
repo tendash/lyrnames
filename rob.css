@@ -13,5 +13,5 @@ i.shy::after { content: "] "; }
 
 i.sh::after {content: " TheMadGod";}
 
-div.chatline span[style*="color:#33CC33"] [href*="Sheogorath"] .chatname { color: ##FF69B4 !important; font-family: Comic Sans MS, Verdana, Arial; }
-div.chatline span[style*="color:#338833"] [href*="Sheogorath"] .chatname { color: ##FF69B4 !important; font-family: Comic Sans MS, Verdana, Arial; }
+div.chatline span[style*="color:#33CC33"] [href*="Sheogorath"] .chatname { color: #FF69B4 !important; font-family: Comic Sans MS, Verdana, Arial; }
+div.chatline span[style*="color:#338833"] [href*="Sheogorath"] .chatname { color: #FF69B4 !important; font-family: Comic Sans MS, Verdana, Arial; }
