@@ -3,6 +3,7 @@
 i.sh {
     color: #FF69B4;
     font-style: normal;
+    font-family: Comic Sans MS, Verdana, Arial;
 }
 i.shy { 
     font-style: normal;
@@ -11,7 +12,7 @@ i.shy {
 i.shy::before { content: "["; }
 i.shy::after { content: "] "; }
 
-i.sh::after {content: " TheMadGod";}
+i.sh::after {content: " The Mad God";}
 
 div.chatline span[style*="color:#33CC33"] [href*="Sheogorath"] .chatname { color: #FF69B4 !important; font-family: Comic Sans MS, Verdana, Arial; }
 div.chatline span[style*="color:#338833"] [href*="Sheogorath"] .chatname { color: #FF69B4 !important; font-family: Comic Sans MS, Verdana, Arial; }
