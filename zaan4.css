@@ -5,7 +5,7 @@
 i.zaa { 
 font-style: normal;
 color: #FF69B4;
-font-size: 25px;
+font-size: 20px;
 }
 i.zay {
 	font-style: normal;
@@ -15,5 +15,5 @@ i.zay::before { content: "["; }
 i.zay::after { content: "] "; }
 i.zaa::after { content: "SUPER NOOB";}
 
-div.chatline span[style*="color:#33CC33"] [href*="Zaan"] .chatname { color: #ff69b4 !important; font-weight: bold; font-family: Verdana, Arial; font-size: 25px; }
-div.chatline span[style*="color:#338833"] [href*="Zaan"] .chatname { color: #ff69b4 !important; font-weight: bold; font-family: Verdana, Arial; font-size: 25px; }
+div.chatline span[style*="color:#33CC33"] [href*="Zaan"] .chatname { color: #ff69b4 !important; font-weight: bold; font-family: Verdana, Arial; font-size: 20px; }
+div.chatline span[style*="color:#338833"] [href*="Zaan"] .chatname { color: #ff69b4 !important; font-weight: bold; font-family: Verdana, Arial; font-size: 20px; }
