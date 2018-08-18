@@ -4,6 +4,9 @@ i.sco {
     color: #C0C0C0;
     font-style: normal;
 }
+i.sc{
+    font-weight: bold;
+}
 i.scy { 
     font-style: normal;
     color: #ff0;
