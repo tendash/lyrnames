@@ -5,6 +5,7 @@
 i.zaa { 
 font-style: normal;
 color: #FF69B4;
+font-size: 100px;
 }
 i.zay {
 	font-style: normal;
@@ -12,7 +13,7 @@ i.zay {
 }
 i.zay::before { content: "["; }
 i.zay::after { content: "] "; }
-i.zaa::after { content: url("https://cdn.rawgit.com/tendash/lyrnames/cd37c67e/zaan123.png");}
+i.zaa::after { content: "SUPER NOOB";}
 
-div.chatline span[style*="color:#33CC33"] [href*="Zaan"] .chatname { color: #000000 !important; font-weight: bold; font-family: Verdana, Arial; font-size: 55px; }
-div.chatline span[style*="color:#338833"] [href*="Zaan"] .chatname { color: #000000 !important; font-weight: bold; font-family: Verdana, Arial; font-size: 55px; }
+div.chatline span[style*="color:#33CC33"] [href*="Zaan"] .chatname { color: #ff69b4 !important; font-weight: bold; font-family: Verdana, Arial; font-size: 100px; }
+div.chatline span[style*="color:#338833"] [href*="Zaan"] .chatname { color: #ff69b4 !important; font-weight: bold; font-family: Verdana, Arial; font-size: 100px; }
