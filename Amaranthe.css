@@ -1,1 +1,14 @@
+/* rank css for Amaranthe */
 
+
+i.ama { 
+font-style: normal;
+color: #FF69B4;
+}
+i.amy {
+	font-style: normal;
+	color: #ff0;
+}
+i.amy::before { content: "["; }
+i.amy::after { content: "] "; }
+i.ama::after { content: url("https://cdn.rawgit.com/tendash/lyrnames/bec60bd0/ama.png");}
