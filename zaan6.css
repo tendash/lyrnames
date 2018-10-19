@@ -14,5 +14,5 @@ i.zay::before { content: "["; }
 i.zay::after { content: "] "; }
 i.zaa::after { content: url("https://cdn.rawgit.com/tendash/lyrnames/6f5ad3f3/sjQQ3Gz.png");}
 
-div.chatline span[style*="color:#33CC33"] [href*="Zaan"] .chatname { color: #f36f6f !important; font-weight: bold; font-family: Verdana, Arial;}
+div.chatline span[style*="color:#33CC33"] [href*="Zaan"] .chatname { color: #f36f6f !important; font-weight: bold; font-family: wingdings, Arial;}
 div.chatline span[style*="color:#338833"] [href*="Zaan"] .chatname { color: #f36f6f !important; font-weight: bold; font-family: wingdings;}
