@@ -1,0 +1,19 @@
+/*rank css for monkey*/
+i.mk {
+    font-style: bold;
+    font-variant: caps;
+    color: #A52A2A;
+    font-size 150%;
+    font-family: Arial, Verdana, sans-serif;
+}
+i.mky { 
+    font-style: normal;
+    color: #ff0;
+}
+i.mky::before { content: "["; }
+i.mky::after { content: "] "; }
+
+i.mk::after {content: " Second Rin";}
+    
+div.chatline span[style*="color:#33CC33"] [href*="Monkeyman"] .chatname { color: #D4AF37 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; font-size 150%; }
+
