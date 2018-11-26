@@ -1,0 +1,17 @@
+/*rank css for fux*/
+i.fu {
+    color: #358c10;
+    font-weight: bold; 
+    font-family: Raleway, Verdana, Arial;
+}
+i.fuy { 
+    font-style: normal;
+    color: #ff0;
+}
+i.fuy::before { content: "["; }
+i.fuy::after { content: "] "; }
+
+i.ny::after {content: " Dead";}
+    
+
+
