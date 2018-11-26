@@ -11,7 +11,7 @@ i.fuy {
 i.fuy::before { content: "["; }
 i.fuy::after { content: "] "; }
 
-i.ny::after {content: " Dead";}
+i.fu::after {content: " Dead";}
     
 
 
