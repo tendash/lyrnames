@@ -10,7 +10,7 @@ i.xny {
 i.xny::before { content: "["; }
 i.xny::after { content: "] "; }
 
-i.xn::after {content: " Burger's account";}
+i.xn::after {content: " Burger's Account";}
     
 
 
