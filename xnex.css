@@ -1,0 +1,16 @@
+/*rank css for xnex*/
+i.xn {
+    color: #ea1518;
+    font-family: Verdana, Arial;
+}
+i.xny { 
+    font-style: normal;
+    color: #ff0;
+}
+i.xny::before { content: "["; }
+i.xny::after { content: "] "; }
+
+i.xn::after {content: " Burger's account";}
+    
+
+
