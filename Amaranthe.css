@@ -11,4 +11,4 @@ i.amy {
 }
 i.amy::before { content: "["; }
 i.amy::after { content: "] "; }
-i.ama::after { content: url("https://cdn.rawgit.com/tendash/lyrnames/bec60bd0/ama.png");}
+i.ama::after { content: url("https://cdn.jsdelivr.net/gh/tendash/lyrnames@bec60bd0/ama.png");}
