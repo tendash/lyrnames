@@ -12,7 +12,7 @@ i.zay {
 }
 i.zay::before { content: "["; }
 i.zay::after { content: "] "; }
-i.zaa::after { content: url("https://cdn.rawgit.com/tendash/lyrnames/2b578333/Shut-Up-Emoticon.jpg");}
+i.zaa::after { content: url("https://cdn.jsdelivr.net/gh/tendash/lyrnames@2b578333/Shut-Up-Emoticon.jpg");}
 
 div.chatline span[style*="color:#33CC33"] [href*="Zaan"] .chatname { color: #000000 !important; font-weight: bold; font-family: Verdana, Arial; font-size: 0px; }
 div.chatline span[style*="color:#338833"] [href*="Zaan"] .chatname { color: #000000 !important; font-weight: bold; font-family: Verdana, Arial; font-size: 0px; }
