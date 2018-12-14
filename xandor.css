@@ -7,8 +7,8 @@ i.xay {
     font-style: normal;
     color: #ff0;
 }
-i.xay::before { content: "["; }
-i.xay::after { content: "] "; }
+i.xay::before { content: ""; }
+i.xay::after { content: " "; }
 
 
     
