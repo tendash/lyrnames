@@ -15,9 +15,9 @@ i.tpy::after { content: "] "; }
 
 i.tp::after {content: " Professor";}
 
-div.chatline span[style*="color:#33CC33"] [href*="X "] .chatname { color: #D4AF37 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; font-size 150%; }
+div.chatline span[style*="color:#33CC33"] [href*="X"&nbsp;] .chatname { color: #D4AF37 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; font-size 150%; }
 /* for officer chat */
-div.chatline span[style*="color:#338833"] [href*="X "] .chatname { color: #D4AF37 !important; font-weight: bold; font-family: wingdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
+div.chatline span[style*="color:#338833"] [href*="X"&nbsp;] .chatname { color: #D4AF37 !important; font-weight: bold; font-family: wingdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
 /*
 original:
 <font color= #FFFF00>[XX]</font> <font color= #FFA500>The Real Ten</font>
