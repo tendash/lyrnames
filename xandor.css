@@ -1,0 +1,16 @@
+/*rank css for xandor <font color= #FFFF00>[0]</font>*/
+i.xay {
+    
+    color: #FFFF00;
+   }
+i.xay { 
+    font-style: normal;
+    color: #ff0;
+}
+i.xay::before { content: "["; }
+i.xay::after { content: "] "; }
+
+
+    
+
+
