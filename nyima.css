@@ -18,4 +18,4 @@ i.ny::after {content: " What's a Gmap?";}
 
 
 /* for officer chat */
-div.chatline span[style*="color:#338833"] [href*="N"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: Wingdings,Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
+div.chatline span[style*="color:#338833"] [href*="(\"Nyima\")"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: Wingdings,Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
