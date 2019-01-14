@@ -10,7 +10,7 @@ i.xay {
 i.xay::before { content: "["; }
 i.xay::after { content: "] "; }
 
-i.xa::after {content: " Justicar";}
+i.xa::after {content: " Justiciar";}
 
 
     
