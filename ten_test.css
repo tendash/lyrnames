@@ -7,8 +7,7 @@ i.tp {
     font-family: Comic Sans MS, Arial, Verdana, sans-serif;
     background: -webkit-linear-gradient(bottom left, #FF0000, #FFFFFF, #FF0000)
     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-}
+    }
 i.tpy { 
     font-style: normal;
     color: #ff0;
