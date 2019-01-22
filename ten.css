@@ -13,7 +13,7 @@ i.tpy {
 i.tpy::before { content: "["; }
 i.tpy::after { content: "] "; }
 
-i.tp::after {content: " Professor";}
+/* i.tp::after {content: " Professor";} */
 
 div.chatline span[style*="color:#33CC33"] [href*="X"] .chatname { color: #D4AF37 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; font-size 150%; }
 /* for newmain */
