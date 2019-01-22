@@ -2,11 +2,12 @@
 i.tp {
     font-style: bold;
     font-variant: small-caps;
-    color: #D4AF37;
+    color: #FFFFFF;
     font-size 150%;
     font-family: Comic Sans MS, Arial, Verdana, sans-serif;
-    background: -webkit-linear-gradient(bottom left, #FF0000, #FFFFFF, #FF0000)
+    background: -webkit-linear-gradient(left, #FF0000, #FFFFFF, #FF0000);
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     }
 i.tpy { 
     font-style: normal;
