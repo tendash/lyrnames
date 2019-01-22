@@ -16,4 +16,4 @@ i.sh::after {content: " The Mad God";}
 
 div.chatline span[style*="color:#33CC33"] [href*="sillyrorb"] .chatname { color: #FF69B4 !important; font-family: Comic Sans MS, Verdana, Arial; }
 div.chatline span[style*="color:#338833"] [href*="sillyrorb"] .chatname { color: #FF69B4 !important; font-family: Comic Sans MS, Verdana, Arial; }
-div.chatline span[style*="color:#CC6600"] [href*="silyrorb"] .chatname { color: #D4AF37 !important; font-weight: bold; font-family: wingdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
+div.chatline span[style*="color:#CC6600"] [href*="sillyrorb"] .chatname { color: #D4AF37 !important; font-weight: bold; font-family: wingdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
