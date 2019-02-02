@@ -1,0 +1,14 @@
+/*rank css for Moto*/
+i.mo {
+    color: #cc0000;
+      }
+i.moy { 
+    font-style: normal;
+    color: #ff0;
+}
+i.moy::before { content: "["; }
+i.moy::after { content: "] "; }
+
+
+
+div.chatline span[style*="color:#33CC33"] [href*="Motodragon"] .chatname { color: #F2383B !important; font-family: Arial Black }
