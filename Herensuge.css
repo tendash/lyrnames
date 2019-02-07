@@ -1,0 +1,13 @@
+/*rank css for Herensuge*/
+i.he {
+       color: #cf1020;
+   }
+i.hey { 
+    font-style: normal;
+    color: #ff0;
+}
+i.hey::before { content: "["; }
+i.hey::after { content: "] "; }
+
+i.he::after {content: "Bad M" &#8734;"therfucker";} 
+
