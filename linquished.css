@@ -10,6 +10,6 @@ i.liy::before { content: "["; }
 i.liy::after { content: "] "; }
 
 
-div.chatline span[style*="color:#33CC33"] [href*="linquished"] .chatname { color: red !important; background: -webkit-linear-gradient(red, yellow);-webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+div.chatline span[style*="color:#33CC33"] [href*="Linquished"] .chatname { color: red !important; background: -webkit-linear-gradient(red, yellow);-webkit-background-clip: text; -webkit-text-fill-color: transparent;}
 
 
