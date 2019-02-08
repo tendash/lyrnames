@@ -10,7 +10,7 @@ i.zay {
 }
 i.zay::before { content: "["; }
 i.zay::after { content: "] "; }
-i.zam::after { content: url("//l.rtehl33t.net/vk.png");}
+i.zam::after { content: url("https://rawcdn.githack.com/tendash/lyrnames/711cd11a3322b3a13b3a3da5866a7f27f67e180e/vamp.png");}
 
 div.chatline span[style*="color:#33CC33"] [href*="Varrnpirekiller"] .chatname { color: #FF7000 !important; font-weight: bold; font-family: Verdana, Arial; }
 div.chatline span[style*="color:#338833"] [href*="Varrnpirekiller"] .chatname { color: #FF7000 !important; font-weight: bold; font-family: Verdana, Arial; }
