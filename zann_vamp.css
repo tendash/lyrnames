@@ -1,0 +1,16 @@
+/* rank css for Varrnpirekiller */
+
+i.za { 
+font-style: normal;
+color: #D9B3FF;
+}
+i.zay {
+	font-style: normal;
+	color: #ff0;
+}
+i.zay::before { content: "["; }
+i.zay::after { content: "] "; }
+i.zam::after { content: url("//l.rtehl33t.net/vk.png");}
+
+div.chatline span[style*="color:#33CC33"] [href*="Varrnpirekiller"] .chatname { color: #FF7000 !important; font-weight: bold; font-family: Verdana, Arial; }
+div.chatline span[style*="color:#338833"] [href*="Varrnpirekiller"] .chatname { color: #FF7000 !important; font-weight: bold; font-family: Verdana, Arial; }
