@@ -1,8 +1,7 @@
 /*rank css for fux*/
 i.fu {
     color: #358c10;
-    font-weight: bold; 
-    font-family: Raleway, Verdana, Arial;
+    font-family: Sequel Sans;
 }
 i.fuy { 
     font-style: normal;
@@ -11,7 +10,7 @@ i.fuy {
 i.fuy::before { content: "["; }
 i.fuy::after { content: "] "; }
 
-i.fu::after {content: " Dead";}
+i.fu::after {content: " Dank";}
     
 
 
