@@ -28,4 +28,4 @@ i.hay {
 i.hay::before { content: "["; }
 i.hay::after { content: "] "; }
 
- div.chatline span[style*="color:#33CC33"] [href*="harakim"] .chatname { color:#7cffda !important;  font-family: Comic Sans MS, Verdana, Arial; }
+ div.chatline span[style*="color:#33CC33"] [href*="harakim"] .chatname { color: #7cffda !important;  font-family: Comic Sans MS, Verdana, Arial; }
