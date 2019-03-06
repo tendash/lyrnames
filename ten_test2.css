@@ -1,5 +1,5 @@
 /*rank css for Ten*/
-@import url('https://fonts.googleapis.com/css?family=Fontdiner+Swanky');
+@import url('https://fonts.googleapis.com/css?family=Fontdiner+Swanky&effect=font-effect-3d');
 
 i.tp {
     font-style: bold;
@@ -7,10 +7,7 @@ i.tp {
     color: #FFFFFF;
     font-size 150%;
     font-family: 'Fontdiner Swanky', cursive;
-    background: -webkit-linear-gradient(left, #FF0000 , #FFFFFF , #FF0000 );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    }
+        }
 i.tpy { 
     font-style: normal;
     color: #ff0;
