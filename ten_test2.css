@@ -1,5 +1,5 @@
 /*rank css for Ten*/
-<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css?family=Fontdiner+Swanky');
 
 i.tp {
     font-style: bold;
