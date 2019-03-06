@@ -1,9 +1,9 @@
 /*rank css for Ten*/
-@import url('https://fonts.googleapis.com/css?family=Fontdiner+Swanky&effect=font-effect-anaglyph');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 i.tp {
     color:#00f9ff;
-    font-family: 'Fontdiner Swanky', cursive;
+    font-family: 'Roboto', sans-serif;
         }
 i.tpy { 
     font-style: normal;
