@@ -1,11 +1,8 @@
 /*rank css for Ten*/
-@import url('https://fonts.googleapis.com/css?family=Fontdiner+Swanky&effect=font-effect-fire-animation');
+@import url('https://fonts.googleapis.com/css?family=Fontdiner+Swanky&effect=font-effect-anaglyph');
 
 i.tp {
-    font-style: bold;
-    font-variant: small-caps;
-    color: 	#00f9ff;
-    font-size 150%;
+    color:#00f9ff;
     font-family: 'Fontdiner Swanky', cursive;
         }
 i.tpy { 
