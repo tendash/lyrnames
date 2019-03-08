@@ -1,0 +1,26 @@
+/*rank css for Ten*/
+i.tp {
+    font-style: bold;
+    font-variant: small-caps;
+    color: #FFFFFF;
+    font-size 150%;
+    font-family: Comic Sans MS, Arial, Verdana, sans-serif;
+    background: -webkit-linear-gradient(left, #FF0000 , #FFFFFF , #FF0000 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    }
+i.tpy { 
+    font-style: normal;
+    color: #ff0;
+}
+i.tpy::before { content: "["; }
+i.tpy::after { content: "] "; }
+
+/* i.tp::after {content: " Professor";} */
+
+div.chatline span[style*="color:#33CC33"] [href*="Ten"] .chatname { color: #D4AF37 !important; background: -webkit-linear-gradient(left, #FF0000 , #FFFFFF , #FF0000 );-webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; font-size 150%; }
+/* for newmain */
+/* div.chatline span[style*="color:#CC6600"] [href*="Ten"] .chatname { color: #D4AF37 !important; font-weight: bold; font-family: wingdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;} *?
+/* for officer */
+div.chatline span[style*="color:#338833"] [href*="Ten"] .chatname { color: #D4AF37 !important; font-weight: bold; font-family: wingdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
