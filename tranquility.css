@@ -1,7 +1,7 @@
 /*rank css for tranquility*/
 i.tr {
     /* color: #FFFFFF; */
-    background-image: -webkit-linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    background-image: -webkit-linear-gradient(right, orange , yellow, green, cyan, blue, violet);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
      -webkit-animation: hue 20s infinite linear;
