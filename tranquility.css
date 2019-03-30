@@ -6,6 +6,17 @@ i.tr {
      -webkit-text-fill-color: transparent;
      -webkit-animation: hue 20s infinite linear;
     }
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
 i.try { 
     font-style: normal;
     color: #ff0;
