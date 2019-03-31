@@ -18,7 +18,7 @@ i.tpy::after { content: "] "; }
 
 /* i.tp::after {content: " Professor";} */
 
-div.chatline span[style*="color:#33CC33"] [href*="\"X\""] .chatname { color: #D4AF37 !important; background: -webkit-linear-gradient(left, #FF0000 , #FFFFFF , #FF0000 );-webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: hue 0.1s infinite linear; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; font-size 150%; }
+div.chatline span[style*="color:#33CC33"] [href*="\"X\""] .chatname { color: #D4AF37 !important; background: -webkit-linear-gradient(left, #FF0000 , #FFFFFF , #FF0000 );-webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: hue 1s infinite linear; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; font-size 150%; }
 /* for newmain */
 /* div.chatline span[style*="color:#CC6600"] [href*="Ten"] .chatname { color: #D4AF37 !important; font-weight: bold; font-family: wingdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;} *?
 /* for officer */
