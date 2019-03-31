@@ -4,7 +4,7 @@ i.tr {
     background-image: -webkit-linear-gradient(right, orange , yellow, green, cyan, blue, violet);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
-     -webkit-animation: hue 20s infinite linear;
+     -webkit-animation: hue 5s infinite linear;
     }
 
 @-webkit-keyframes hue {
