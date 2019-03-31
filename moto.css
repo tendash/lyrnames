@@ -11,4 +11,4 @@ i.moy::after { content: "] "; }
 
 
 
-div.chatline span[style*="color:#33CC33"] [href*="Motodragon"] .chatname { color: #F2383B !important; font-family: "Arial Black"; }
+div.chatline span[style*="color:#33CC33"] [href*="Motodragon"] .chatname { color: #F2383B !important; background: -webkit-linear-gradient(left, #F2383B , #FFFFFF , #F2383B );-webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: hue 5s infinite linear;font-family: "Arial Black"; }
