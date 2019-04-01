@@ -1,13 +1,13 @@
 /* rank css for Harakim */
 
 i.har {
-  font-style: bold;
-  font-variant: small-caps;
-  font-family: cursive;
-  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #FFF 20%, #5d82f4 40%, #5d82f4 60%, #FFF 80%);
+  background-size: 200% auto;
+  color: #000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 20s infinite linear;
+  -webkit-animation: hue 20s infinite linear, scroll 10s infinite linear;
 }
 
 @-webkit-keyframes hue {
@@ -20,12 +20,20 @@ i.har {
   }
 }
 
+@-webkit-keyframes scroll {
+  to {
+    background-position: -200% center;
+    }
+}
+
+
 i.hay {
   font-style: normal;
   color: #ff0;
 }
 
+
 i.hay::before { content: "["; }
 i.hay::after { content: "] "; }
 
- div.chatline span[style*="color:#33CC33"] [href*="harakim"] .chatname { color: #7cffda !important;  font-family: Comic Sans MS, Verdana, Arial; }
+ div.chatline span[style*="color:#33CC33"] [href*="harakim"] .chatname { color:#7cffda !important;  font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; }
