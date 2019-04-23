@@ -1,0 +1,18 @@
+/* castelmore rank css */
+
+i.cmy {
+	font-style: normal;
+	color: #ff0;
+}
+i.cmy::before { content: "["; }
+i.cmy::after { content: "] "; }
+i.cm {
+	font-style: normal;
+	color: red;
+	background: -webkit-linear-gradient(left, #00f, #fff, #fff, #f00);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+i.cm::after {
+	content: "eur de Chatte";
+}
