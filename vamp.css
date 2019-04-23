@@ -1,0 +1,16 @@
+/* rank css for Vampirekiller */
+
+i.vam { 
+font-style: normal;
+color: #D9B3FF;
+}
+i.vay {
+	font-style: normal;
+	color: #ff0;
+}
+i.vay::before { content: "["; }
+i.vay::after { content: "] "; }
+i.vam::after { content: url("https://rawcdn.githack.com/tendash/lyrnames/5cf07bd09575c35f2e3ab879f96250d88d2c1dc7/vamp.png");}
+
+div.chatline span[style*="color:#33CC33"] [href*="Vampirekiller"] .chatname { color: #FF7000 !important; font-weight: bold; font-family: Verdana, Arial; }
+div.chatline span[style*="color:#338833"] [href*="Vampirekiller"] .chatname { color: #FF7000 !important; font-weight: bold; font-family: Verdana, Arial; }
