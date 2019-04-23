@@ -1,0 +1,59 @@
+  /* rank css for Drunky */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+i.dky { 
+	font-style: normal;
+	color: #ff0;
+}
+i.dky::before { content: "["; }
+i.dky::after { content: "] "; }
+
+i.dk {
+	font-style: normal;
+	color: #416396;
+	font-family: Verdana,Arial;
+	background-repeat-x: repeat;
+	background-image: url(https://rawcdn.githack.com/tendash/lyrnames/6dc999478a898f67965ddca3ef00af42113e0e2e/drunky_middle.png);
+	background-repeat: repeat;
+	position: relative;
+	height: 15px;
+	line-height: 12px;
+	margin: 0 34px 0 12px;
+	display:inline-block;
+	font-weight: bold;
+	font-size: 7pt;
+	vertical-align: middle;
+	font-style: italic;
+	text-shadow: 0px 0px 15px rgb(80,80,80);
+}
+
+i.dk::before, i.dk::after {
+	content: " ";
+	display: block;
+	height: 15px;
+	position: absolute;
+	top: 0;
+	background-repeat: no-repeat;
+}
+i.dk::before {
+	left: -12px;
+	background-image: url(https://rawcdn.githack.com/tendash/lyrnames/6dc999478a898f67965ddca3ef00af42113e0e2e/drunky_end.png);
+	width:12px;
+}
+i.dk::after{
+	right: -34px;
+	background-image: url(https://rawcdn.githack.com/tendash/lyrnames/6dc999478a898f67965ddca3ef00af42113e0e2e/drunky_front.png);
+	width:34px;
+
+}
+
+div.chatline span[style*="color:#33CC33"] [href*="Drunky"] .chatname {
+	color: #0066ff !important; font-weight: bold; font-family:Verdana, Arial; 
+	/* animation: drunky_drunk 2s ease infinite;*/
+}
+div.chatline span[style*="color:#33CC33"] [href*="Drunky"] .chatname::after {
+	/* content: " *burp*";
+	color: red; */
+	/*animation: drunky_drunk_burp 2s ease infinite;*/
+}
+div.chatline span[style*="color:#338833"] [href*="Drunky"] .chatname { color: #0066ff !important; font-weight: bold; font-family: Raleway, Verdana, Arial; }
