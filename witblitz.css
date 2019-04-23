@@ -1,0 +1,18 @@
+/* rank css for witblitz */
+@import url('https://fonts.googleapis.com/css?family=Acme');
+i.wb, div.chatline span[style*="color:#33CC33"] [href*="witblitz"] .chatname {
+	font-style: normal;
+	font-family: 'Acme', 'Verdana', 'Arial', 'sans-serif';
+	background: linear-gradient(180deg, #555, #0f0);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: #0f0;
+	-webkit-text-fill-color: transparent;
+}
+i.wby { 
+	font-style: normal;
+	color: #ff0;
+}
+i.wby::before { content: "["; }
+i.wby::after { content: "] "; }
+i.wb::after { content: "enator"; }
