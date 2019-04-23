@@ -1,0 +1,18 @@
+/* rank css for DSantosP */
+i.ds {
+	font-style: normal;
+	color: #f00;
+	font-family: Comic Sans MS, Arial, Verdana, sans-serif;
+}
+i.dsy { 
+	font-style: normal;
+	color: #ff0;
+}
+i.dsy::before { content: "["; }
+i.dsy::after { content: "] "; }
+i.ds::after { content: " is OK"; }
+
+
+div.chatline span[style*="color:#33CC33"] [href*="DSantosP"] .chatname { color: #f00 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; }
+div.chatline span[style*="color:#338833"] [href*="DSantosP"] .chatname { color: #f00 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; }
+
