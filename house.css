@@ -1,7 +1,7 @@
 
 i.ten {
     font-family: Arial, Verdana, sans-serif;
-    color: #FFFFFF;
-    background: #22c1c3;  /* fallback for old browsers */
-@-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, -16px 9px 9px rgba(206,89,55,0.04);
+color: #FFFFFF;
+background: #232323;
     }
