@@ -4,7 +4,9 @@ i.rc {
     font-variant: small-caps;
     font-size 150%;
     font-family: Comic Sans MS, Arial, Verdana, sans-serif;
-    background: -webkit-linear-gradient(red, yellow, red) -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(red, yellow, red); 
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
       }
 i.rcy { 
     font-style: normal;
