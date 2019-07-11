@@ -1,0 +1,18 @@
+/*rank css for RC*/
+i.rc {
+    font-style: bold;
+    font-variant: small-caps;
+    font-size 150%;
+    font-family: Comic Sans MS, Arial, Verdana, sans-serif;
+    background: -webkit-linear-gradient(red, yellow, red) -webkit-text-fill-color: transparent;
+      }
+i.rcy { 
+    font-style: normal;
+    color: #ff0;
+}
+i.rcy::before { content: "["; }
+i.rcy::after { content: "] "; }
+
+
+
+
