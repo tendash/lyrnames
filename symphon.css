@@ -1,6 +1,11 @@
 /*rank css for symphon*/
   
-
+i.sy { 
+    font-style: normal;
+    color: #ff0;
+}
+i.sy::before { content: "["; }
+i.sy::after { content: "] "; }
 
 
 div.chatline span[style*="color:#338833"] [href*="Symphon"] .chatname { color: #66B2FF !important; font-weight: bold; font-family:Helvetica }
