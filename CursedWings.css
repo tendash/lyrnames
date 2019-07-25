@@ -3,7 +3,7 @@ i.cw {
     font-style: italic;
     font-size 150%;
     font-family: Comic Sans MS, Arial, Verdana, sans-serif;
-    background: -webkit-linear-gradient(to Right,#FF007F, white); 
+    background: -webkit-linear-gradient(to right,#FF007F, white); 
      -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
       }
