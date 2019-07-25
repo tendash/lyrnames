@@ -1,0 +1,19 @@
+/*rank css for CursedWings*/
+i.cw {
+    font-style: italic;
+    font-size 150%;
+    font-family: Comic Sans MS, Arial, Verdana, sans-serif;
+    background: -webkit-linear-gradient(90deg,#FF007F, white); 
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      }
+i.cwy { 
+    font-style: normal;
+    color: #ff0;
+}
+i.cwy::before { content: "["; }
+i.cwy::after { content: "] "; }
+
+
+
+
