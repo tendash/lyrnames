@@ -4,4 +4,6 @@ i.ten {
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, -16px 9px 9px rgba(206,89,55,0.04);
 color: #FFFFFF;
 background: #232323;
+    
+div.chatline span[style*="color:##ffffff"] [href*="\"X\""] .chatname { color: #D4AF37 !important; background: -webkit-linear-gradient(left, #FF0000 , #FFFFFF , #FF0000 );-webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: hue 1s infinite linear; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; font-size 150%; }  
     }
