@@ -1,0 +1,22 @@
+/*rank css for Shaoo */
+
+/*<font color= #FFFF00>[L]</font> <font color= #FFD700>Sieg Hallelujah</font>*/
+i.sh {
+    color: #FFD700;
+   }
+i.shy { 
+    font-style: normal;
+    color: #ff0;
+}
+i.shy::before { content: "["; }
+i.shy::after { content: "] "; }
+
+
+/* for officer chat */
+div.chatline span[style*="color:#338833"] [href*="Shaoo"] .chatname { color: #F7F570 !important;}
+/* For guild chat */
+div.chatline span[style*="color:#33CC33"] [href*="Shaoo"] .chatname { color: #F7F570 !important;}
+
+
+
+
