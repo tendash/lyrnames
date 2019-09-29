@@ -37,3 +37,4 @@ i.hay::before { content: "["; }
 i.hay::after { content: "] "; }
 
  div.chatline span[style*="color:#33CC33"] [href*="harakim"] .chatname { color:#7cffda !important;  font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; }
+div.chatline span[style*="color:#338833"] [href*="harakim"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: Wingdings,Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
