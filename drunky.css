@@ -57,5 +57,5 @@ div.chatline span[style*="color:#33CC33"] [href*="Drunky"] .chatname::after {
 	/*animation: drunky_drunk_burp 2s ease infinite;*/
 }
 
-div.chatline span[style*="color:#338833"] [href*="Drunky"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings,Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
+div.chatline span[style*="color:#338833"] [href*="Drunky"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
 
