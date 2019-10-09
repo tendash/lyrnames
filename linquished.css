@@ -12,6 +12,4 @@ i.liy::after { content: "] "; }
 
 div.chatline span[style*="color:#33CC33"] [href*="Linquished"] .chatname { color: red !important; background: -webkit-linear-gradient(red, yellow);-webkit-background-clip: text; -webkit-text-fill-color: transparent;}
 
-div.chatline span[style*="color:#338833"] [href*="Linquished"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings,Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
-
-
+div.chatline span[style*="color:#338833"] [href*="Linquished"] .chatname { color: red !important; background: -webkit-linear-gradient(red, yellow);-webkit-background-clip: text; -webkit-text-fill-color: transparent;}
