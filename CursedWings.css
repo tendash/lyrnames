@@ -14,7 +14,7 @@ i.cwy {
 i.cwy::before { content: "["; }
 i.cwy::after { content: "] "; }
 
-div.chatline span[style*="color:#33CC33"] [href*="CursedWings"] .chatname { color: #D4AF37 !important;background-image: -webkit-linear-gradient(right,Red, orange , yellow , green, blue, cyan , violet);-webkit-background-clip: text; -webkit-text-fill-color: transparent;-webkit-animation: hue 5s infinite linear; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: italic bold; font-size 150%; }
+div.chatline span[style*="color:#33CC33"] [href*="CursedWings"] .chatname { color: #fd0755 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: italic bold; font-size 150%; }
 
 
 
