@@ -9,10 +9,10 @@ i.caboy::before { content: "["; }
 i.caboy::after { content: "] "; }
 
 i.cabor {
-font-style: normal;
-    color: #ffffff;
-}
-i.cabor::before, i.cabor::after {
+font- style="color:#3FA;text-shadow:0 0 4px #FFF;"
+   
+
+/*i.cabor::before, i.cabor::after {
 font-style: normal;
 }
 i.cabor::before {
@@ -23,6 +23,8 @@ i.cabor::after {
 color: #0000ff;
 content: "blue";
 }
+*/
+
 /* for guild chat */
  div.chatline span[style*="color:#33CC33"] [href*="caboosemdw"] .chatname { color:#ffff00 !important;  font-family: Comic Sans MS, Verdana, Arial; }
 
