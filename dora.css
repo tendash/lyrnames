@@ -1,0 +1,16 @@
+/*rank css for dora*/
+i.dy {
+    color: #0000ff;
+    
+}
+i.doy { 
+    font-style: normal;
+    color: #ff0;
+}
+i.doy::before { content: "["; }
+i.doy::after { content: "] "; }
+
+i.dy::after {content: " D-D-D-D- Dora";}
+    
+
+div.chatline span[style*="color:#33CC33"] [href*="dora"] .chatname { color:#FFA500 !important; }
