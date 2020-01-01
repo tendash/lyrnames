@@ -16,6 +16,8 @@ i.rcy::before { content: "["; }
 i.rcy::after { content: "] "; }
 
 
+div.chatline span[style*="color:#33CC33"] [href*="RcRaceChamp"] .chatname { color: #23b2ee !important; font-style: bold; font-variant: small-caps;font-size 150%; font-family: Comic Sans MS, Arial, Verdana, sans-serif;background: -webkit-linear-gradient(red, yellow, red);-webkit-background-clip: text;-webkit-text-fill-color: transparent; }
+
 div.chatline span[style*="color:#338833"] [href*="RcRaceChamp"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
 
 
