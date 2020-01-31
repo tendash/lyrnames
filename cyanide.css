@@ -1,9 +1,10 @@
 /*rank css for cyanide*/
 i.cy {
-    color: #cc0000;
+        color: #F2383B !important; background: -webkit-linear-gradient(left, #F2383B , #FFFFFF , #F2383B );-webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: hue 10s infinite linear;font-family: "Arial Black";
       }
 i.cyy { 
-    color: #F2383B !important; background: -webkit-linear-gradient(left, #F2383B , #FFFFFF , #F2383B );-webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: hue 10s infinite linear;font-family: "Arial Black";
+    font-style: normal;
+    color: #ff0;
 }
 i.cyy::before { content: "["; }
 i.cyy::after { content: "] "; }
