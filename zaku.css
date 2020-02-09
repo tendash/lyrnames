@@ -1,0 +1,19 @@
+/* <font color= #FFFF00>[XX]</font> <font color= #ed8e4a>Bashar </font> */
+
+/*rank css for zaku*/
+i.za {
+    color: #ed8e4a;
+    }
+i.zay { 
+    font-style: normal;
+    color: #ff0;
+}
+i.zay::before { content: "["; }
+i.zay::after { content: "] "; }
+
+
+div.chatline span[style*="color:#33CC33"] [href*="Zaku"] .chatname { color: #ed8e4a !important;}
+
+/* for officer 
+div.chatline span[style*="color:#338833"] [href*="Zaku"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
+*/
