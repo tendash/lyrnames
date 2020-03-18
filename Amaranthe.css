@@ -12,3 +12,8 @@ i.amy {
 i.amy::before { content: "["; }
 i.amy::after { content: "] "; }
 i.ama::after { content: url("https://cdn.rawgit.com/tendash/lyrnames/bec60bd0/ama.png");}
+
+
+
+div.chatline span[style*="color:#33CC33"] [href*="Amaranthe"] .chatname { color: #960305 !important; background: -webkit-linear-gradient(left, #960305 , #ffff14 , #960305 );-webkit-background-clip: text; -webkit-text-fill-color: transparent; font-family: "Arial Black"; }
+
