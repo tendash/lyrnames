@@ -1,0 +1,11 @@
+i.thy { 
+font-style: normal;
+color: #ff0;
+}
+i.thy::before { content: "["; }
+i.thy::after { content: "] "; }
+
+i.th {
+font- style: normal;
+   color: #33ffaa;
+   text-shadow:0 0 4px #FFF;
