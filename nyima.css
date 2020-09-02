@@ -16,7 +16,7 @@ i.nyy::after { content: "] "; }
 i.ny::after {content: " What's a Gmap?";}
     
 
-div.chatline span[style*="color:#33CC33"] [href*="Nyima"] .chatname { color: #6666cc !important; font-weight: bold;}
+div.chatline span[style*="color:#33CC33"] [href*="Nyima"] .chatname { color: #6666cc !important; font-weight: bold; font-family: Courier;}
 
 /* for officer chat */
 div.chatline span[style*="color:#338833"] [href*="Nyima"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: Wingdings,Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
