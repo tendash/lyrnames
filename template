@@ -1,4 +1,17 @@
-div.chatline span[style*="color:#33CC33"] [href*="\"X\""] .chatname { color: #23b2ee !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; font-size 150%; }
+/*rank css for XXXXXXXX/
+i.XX {
+       color: #cf1020;
+       font-style: Bold;
+   }
+i.XXy { 
+    font-style: normal;
+    color: #ff0;
+}
+i.XXy::before { content: "["; }
+i.XXy::after { content: "] "; }
+
+div.chatline span[style*="color:#33CC33"] [href*="XXXXX"] .chatname { color: #00a86b !important; font-weight: bold;}
 
 /* for officer */
-div.chatline span[style*="color:#338833"] [href*="\"X\""] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
+div.chatline span[style*="color:#338833"] [href*="XXXXXXe"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
+
