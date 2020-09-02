@@ -1,4 +1,0 @@
-div.chatline span[style*="color:#33CC33"] [href*="\"X\""] .chatname { color: #23b2ee !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; font-size 150%; }
-
-/* for officer */
-div.chatline span[style*="color:#338833"] [href*="\"X\""] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
