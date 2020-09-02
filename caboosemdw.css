@@ -32,7 +32,8 @@ content: "blue";
  div.chatline span[style*="color:#33CC33"] [href*="caboosemdw"] .chatname { color:#000000 !important;  font-family: Comic Sans MS, Verdana, Arial; }
 
 /* for officer chat */
-div.chatline span[style*="color:#338833"] [href*="caboosemdw"] .chatname { color: #000000 !important; font-weight: bold; font-family: Wingdings,Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
+div.chatline span[style*="color:#338833"] [href*="caboosemdw"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
+
 
 
 /* old colour #2b6be4 */
