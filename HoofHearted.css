@@ -9,5 +9,5 @@ i.hoy {
 }
 i.hoy::before { content: "["; }
 i.hoy::after { content: "] "; }
-i.ho::after { content: url("https://rawcdn.githack.com/tendash/lyrnames/0e556ca3327d7c49ea7793903942d263aed3af62/flat,128x,075,f-pad,128x128,f8f8f8.u1.jpg
+i.ho::before { content: url("https://rawcdn.githack.com/tendash/lyrnames/0e556ca3327d7c49ea7793903942d263aed3af62/flat,128x,075,f-pad,128x128,f8f8f8.u1.jpg
 ");}
