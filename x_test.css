@@ -1,0 +1,22 @@
+/*rank css for Ten*/
+i.tp {
+<link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Cinzel Decorative';font-size: 22px;
+}
+</style>
+    color: #c46622;
+    }
+i.tpy { 
+    font-style: normal;
+    color: #ff0;
+}
+i.tpy::before { content: "["; }
+i.tpy::after { content: "] "; }
+
+
+div.chatline span[style*="color:#33CC33"] [href*="\"X\""] .chatname { color: #c46622 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; font-size 150%; text-decoration: underline overline wavy #c46622; }
+
+/* for officer */
+div.chatline span[style*="color:#338833"] [href*="\"X\""] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
