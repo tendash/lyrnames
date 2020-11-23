@@ -1,8 +1,11 @@
 /*rank css for XXXXXXXX/
+/* Rank Font */
 i.XX {
        color: #cf1020;
        font-style: Bold;
    }
+   
+/* code for Rank # */
 i.XXy { 
     font-style: normal;
     color: #ff0;
@@ -10,6 +13,7 @@ i.XXy {
 i.XXy::before { content: "["; }
 i.XXy::after { content: "] "; }
 
+/* Coloured Name code */
 div.chatline span[style*="color:#33CC33"] [href*="XXXXX"] .chatname { color: #00a86b !important; font-weight: bold;}
 
 /* for officer */
