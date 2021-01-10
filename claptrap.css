@@ -33,7 +33,7 @@ i.cly {
 }
 
 i.cl::after {
-content: "Got A Good Looking Main frame";
+content: "Got A Good Looking Mainframe";
 
 i.cly::before { content: "["; }
 i.cly::after { content: "] "; }
