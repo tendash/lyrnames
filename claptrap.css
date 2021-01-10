@@ -2,7 +2,7 @@
 
 i.cl {
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(to right, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #2E2B5F, #8B00F );
+  background: linear-gradient(to right, #FF0000 100%, #FF7F00 100%, #FFFF00 100%, #00FF00 100%, #0000FF 100%, #2E2B5F 100%, #8B00F 100%);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
