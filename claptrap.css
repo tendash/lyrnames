@@ -6,7 +6,7 @@ i.cl {
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 20s infinite linear, scroll 10s infinite linear;
+  -webkit-animation: hue 15s infinite linear, scroll 7s infinite linear;
 }
 
 @-webkit-keyframes hue {
@@ -31,6 +31,8 @@ i.cly {
   color: #ff0;
 }
 
+i.cl::after {
+content: "Got A Good Looking Main frame";
 
 i.cly::before { content: "["; }
 i.cly::after { content: "] "; }
