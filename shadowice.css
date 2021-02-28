@@ -1,0 +1,28 @@
+/*rank css for Shadowice /
+/* Rank Font */
+i.shad {
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(to right, #ffffff 20%, #b9e8ea 40%, #86d6d8 60%, #3fd0d4 80%,#20c3d0 100%);
+      background-size: 200% auto;
+      color: #000;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-animation: hue 20s infinite linear, scroll 10s infinite linear;
+   }
+   
+/* code for Rank # */
+i.shady { 
+    font-style: normal;
+    color: #ff0;
+}
+i.shady::before { content: "["; }
+i.shady::after { content: "] "; }
+
+/*
+/* Coloured Name code */
+div.chatline span[style*="color:#33CC33"] [href*="Shadowice"] .chatname { color: #00a86b !important; font-weight: bold;}
+*/
+
+/* for officer */
+div.chatline span[style*="color:#338833"] [href*="Shadowice"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
+
