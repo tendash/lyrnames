@@ -1,8 +1,8 @@
 /*rank css for Shadowice /
 /* Rank Font */
 i.shad {
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(to right, #ffffff 20%, #b9e8ea 40%, #86d6d8 60%, #3fd0d4 80%,#20c3d0 100%);
+      font-family: Tahoma ;
+      background: linear-gradient(to right, #ffffff, #b9e8ea, #86d6d8, #3fd0d4,#20c3d0 );
       background-size: 200% auto;
       color: #000;
       -webkit-background-clip: text;
