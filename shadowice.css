@@ -2,9 +2,9 @@
 /* Rank Font */
 i.shad {
       font-family: Tahoma ;
+      font-weight: bold;
       background: linear-gradient(to right, #ffffff, #b9e8ea, #86d6d8, #3fd0d4,#20c3d0 );
       background-size: 200% auto;
-      color: #000;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-animation: hue 20s infinite linear, scroll 10s infinite linear;
