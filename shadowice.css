@@ -7,7 +7,7 @@ i.shad {
       background-size: 200% auto;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      -webkit-animation: hue 20s infinite linear, scroll 10s infinite linear;
+      -webkit-animation:  scroll 10s infinite linear;
    }
 @-webkit-keyframes hue {
   from {
