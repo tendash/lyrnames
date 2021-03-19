@@ -10,7 +10,7 @@ i.doy {
 i.doy::before { content: "["; }
 i.doy::after { content: "] "; }
 
-i.dy::after {content: " D-D-D-D- Dora";}
+i.dy::after {content: " Cornhole Specialist";}
     
 
 div.chatline span[style*="color:#33CC33"] [href*="dora"] .chatname { color:#FFA500 !important; }
