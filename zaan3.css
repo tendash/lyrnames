@@ -32,14 +32,11 @@ i.zay {
 i.zay::before { content: "["; }
 i.zay::after { content: "] "; }
 i.zaa::before, i.zaa::after {
-   font-family: Arial ;
-   font-weight: bold;
-   color: #AF69EF	
+   font-style: normal;	
 }
 i.zaa::before {
     content: "Re"
 }
-
 i.zaa::after{
   content:"D"
 }
