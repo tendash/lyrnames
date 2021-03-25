@@ -26,7 +26,7 @@ i.zay::after { content: "] "; }
 i.zaa::before, i.zaa::after {
     font-family: Arial ;
     font-weight: bold;
-    color:#AF69EF
+    color:#AF69EF;
 }
 i.zaa::before {
     font-family: Arial ;
