@@ -34,8 +34,7 @@ i.zaa::before {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-animation:  scroll 5s infinite linear;
-   }
-    content: "Re"
+      content: "Re"
 	    
 }
 i.zaa::after{
@@ -46,8 +45,7 @@ i.zaa::after{
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-animation:  scroll 5s infinite linear;
-   }
-  content:"D"
+      content:"D"
 }
 
 
