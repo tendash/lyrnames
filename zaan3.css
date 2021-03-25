@@ -33,9 +33,6 @@ i.zay::after { content: "] "; }
 i.zaa::after {
     content: "Re"
 }
-i.zaa2::after {
-  color:#AF69EF
-  content: "tar"
 }
 i.zaa::after{
   content:"D"
