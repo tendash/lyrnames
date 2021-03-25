@@ -1,12 +1,4 @@
-i.zaa { 
- font-family: Arial ;
-      font-weight: bold;
-      background: linear-gradient(to right, #ffffff, #AF69EF, #000000);
-      background-size: 200% auto;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -webkit-animation:  scroll 5s infinite linear;
-   }
+
 @-webkit-keyframes hue {
   from {
     -webkit-filter: hue-rotate(0deg);
@@ -35,9 +27,26 @@ i.zaa::before, i.zaa::after {
    font-style: normal;	
 }
 i.zaa::before {
+    font-family: Arial ;
+      font-weight: bold;
+      background: linear-gradient(to right, #ffffff, #AF69EF, #000000);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-animation:  scroll 5s infinite linear;
+   }
     content: "Re"
+	    
 }
 i.zaa::after{
+	font-family: Arial ;
+      font-weight: bold;
+      background: linear-gradient(to right, #ffffff, #AF69EF, #000000);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-animation:  scroll 5s infinite linear;
+   }
   content:"D"
 }
 
