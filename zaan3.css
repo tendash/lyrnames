@@ -30,16 +30,14 @@ i.zay {
 /* RetarD'OH! */
 i.zay::before { content: "["; }
 i.zay::after { content: "] "; }
-i.zaa::after {
+i.zaa::before {
     content: "Re"
 }
 }
 i.zaa::after{
   content:"D"
 }
-i.zaa2::after{
-  content:"'OH!"
-}
+
 
 div.chatline span[style*="color:#33CC33"] [href*="Zaan"] .chatname { color: #f36f6f !important; font-weight: bold; font-family: Arial;}
 /* officer */
