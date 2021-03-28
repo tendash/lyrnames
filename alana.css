@@ -1,0 +1,24 @@
+/*rank css for alana /
+/* Rank Font */
+i.shad {
+      font-family: Tahoma ;
+       background: linear-gradient(to right, #fff0b5, #fe9d3f, #a25412, #2f1200);
+      background-size: 200% auto;
+     
+   
+/* code for Rank # */
+i.alay { 
+    font-style: normal;
+    color: #ff0;
+}
+i.alay::before { content: "["; }
+i.alay::after { content: "] "; }
+
+
+/* Coloured Name code */
+/* div.chatline span[style*="color:#33CC33"] [href*="Alana"] .chatname { color: #00a86b !important; font-weight: bold;} */
+
+
+/* for officer */
+div.chatline span[style*="color:#338833"] [href*="Alana"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
+
