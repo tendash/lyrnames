@@ -23,7 +23,7 @@ i.zay {
 
 i.zay::before { content: "["; }
 i.zay::after { content: "] "; }
-i.zaa::before, i.zaa::after {
+i.zaa::before{
     color:#AF69EF;
 }
 i.zaa::before {
