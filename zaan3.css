@@ -48,6 +48,6 @@ i.zaa::after{
 }
 
 
-div.chatline span[style*="color:#33CC33"] [href*="Zaan"] .chatname { color: #f36f6f !important; font-weight: bold; font-family: Arial;}
+div.chatline span[style*="color:#33CC33"] [href*="Zaan"] .chatname { color: ##FF69B4 !important; font-weight: bold; font-family: Arial;}
 /* officer */
-div.chatline span[style*="color:#338833"] [href*="Zaan"] .chatname { color: #f36f6f !important; font-weight: bold; font-family: wingdings;}
+div.chatline span[style*="color:#338833"] [href*="Zaan"] .chatname { color: ##FF69B4 !important; font-weight: bold; font-family: wingdings;}
