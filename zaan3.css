@@ -33,18 +33,18 @@ i.zaa::before {
       background-size: 200% auto;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      -webkit-animation:  scroll 5s infinite linear;
+      -webkit-animation:  scroll 35s infinite linear;
       content: "Re"
 	    
 }
 i.zaa::after{
 	font-family: Arial ;
       font-weight: bold;
-      background: linear-gradient(to right, #ffffff, #AF69EF, #000000);
+      background: linear-gradient(to right, #AF69EF, #ffffff, #000000);
       background-size: 200% auto;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      -webkit-animation:  scroll 5s infinite linear;
+      -webkit-animation:  scroll 35s infinite linear;
       content:"D"
 }
 
