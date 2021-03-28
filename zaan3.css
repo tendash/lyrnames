@@ -32,7 +32,7 @@ i.zaa::before {
       background-size: 200% auto;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      -webkit-animation:  scroll 15s infinite linear;
+      -webkit-animation:  scroll 10s infinite linear;
       content: "Re"
 	    
 }
@@ -43,7 +43,7 @@ i.zaa::after{
       background-size: 200% auto;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      -webkit-animation:  scroll 15s infinite linear;
+      -webkit-animation:  scroll 10s infinite linear;
       content:"d"
 }
 
