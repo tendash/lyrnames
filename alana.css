@@ -3,8 +3,10 @@
 i.ala {
       font-family: Tahoma ;
        background: linear-gradient(to right, #fff0b5, #fe9d3f, #a25412, #2f1200);
-      background-size: 200% auto;
-     
+   background-size: 200% auto;
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}  
    
 /* code for Rank # */
 i.alay { 
