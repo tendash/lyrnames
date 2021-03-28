@@ -23,17 +23,16 @@ i.zay {
 
 i.zay::before { content: "["; }
 i.zay::after { content: "] "; }
-i.zaa::before{
+i.zaa {
     color:#AF69EF;
 }
 i.zaa::before {
     font-family: Arial ;
-      font-weight: bold;
       background: linear-gradient(to right, #ffffff, #AF69EF, #000000);
       background-size: 200% auto;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      -webkit-animation:  scroll 35s infinite linear;
+      -webkit-animation:  scroll 15s infinite linear;
       content: "Re"
 	    
 }
@@ -44,8 +43,8 @@ i.zaa::after{
       background-size: 200% auto;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      -webkit-animation:  scroll 35s infinite linear;
-      content:"D"
+      -webkit-animation:  scroll 15s infinite linear;
+      content:"d"
 }
 
 
