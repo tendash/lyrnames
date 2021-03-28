@@ -8,26 +8,22 @@ i.zaa {
     color:#AF69EF;
 }
 i.zaa::before {
-    font-family: Arial ;
-      background: linear-gradient(to right, #ffffff, #AF69EF, #000000);
-      background-size: 200% auto;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -webkit-animation:  scroll 10s infinite linear;
-      content: "Re"
-	    
+	animation:blinkingText 1.2s infinite;
+}
+ 	    
 }
 i.zaa::after{
-	font-family: Arial ;
-      font-weight: bold;
-      background: linear-gradient(to right, #AF69EF, #ffffff, #000000);
-      background-size: 200% auto;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -webkit-animation:  scroll 10s infinite linear;
-      content:"d"
+	animation:blinkingText 1.2s infinite;
+
 }
 
+	@keyframes blinkingText{
+    	0%{     color: #ffffff;    }
+    	49%{    color: #AF69EF; }
+    	60%{    color: transparent; }
+    	99%{    color:transparent;  }
+    	100%{   color: #000;    }
+}
 
 /* Coloured Name code */
 div.chatline span[style*="color:#33CC33"] [href*="Zaan"] .chatname { color: #FF69B4 !important; font-weight: bold;}
