@@ -15,7 +15,7 @@ i.zaa::before {
 }
 i.zaa::after{
 	animation:blinkingText 1.2s infinite;
-	Content: "d"
+	Content: "d";
 }
 
 	@keyframes blinkingText{
