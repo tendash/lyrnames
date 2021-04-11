@@ -13,7 +13,7 @@ i.zaa::before {
 }
  	    
 }
-i.zaa::after{
+i.zaa::after {
 	animation:blinkingText 1.2s infinite;
 	Content: "d";
 }
