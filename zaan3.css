@@ -8,14 +8,13 @@ i.zaa {
     color:#AF69EF;
 }
 i.zaa::before {
-	animation:blinkingText 1.2s infinite;
-	Content: "Re";
+animation:blinkingText 1.2s infinite;
+content: "Re";
 }
  	    
-}
 i.zaa::after {
-	animation:blinkingText 1.2s infinite;
-	Content: "d";
+animation:blinkingText 1.2s infinite;
+content: "d";
 }
 
 	@keyframes blinkingText{
