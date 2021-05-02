@@ -13,7 +13,7 @@ i.mky {
 i.mky::before { content: "["; }
 i.mky::after { content: "] "; }
 
-i.mk::after {content: " Second Rin";}
+/* i.mk::after {content: " Second Rin";} */ 
     
 div.chatline span[style*="color:#33CC33"] [href*="Monkeyman"] .chatname { color: #D4AF37 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; font-size 150%; }
 
