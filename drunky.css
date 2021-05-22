@@ -47,15 +47,16 @@ i.dk::after{
 
 }
 
-div.chatline span[style*="color:#33CC33"] [href*="Drunky"] .chatname {
+div.chatline span [href*="Drunky"] .chatname {
 	color: #0066ff !important; font-weight: bold; font-family:Verdana, Arial; 
 	/* animation: drunky_drunk 2s ease infinite;*/
 }
-div.chatline span[style*="color:#33CC33"] [href*="Drunky"] .chatname::after {
+div.chatline span[href*="Drunky"] .chatname::after {
 	/* content: " *burp*";
 	color: red; */
 	/*animation: drunky_drunk_burp 2s ease infinite;*/
 }
 
-div.chatline span[style*="color:#338833"] [href*="Drunky"] .chatname {
+/* div.chatline span[style*="color:#338833"] [href*="Drunky"] .chatname {
 	color: #0066ff !important; font-weight: bold; font-family:Verdana, Arial; 
+*/
