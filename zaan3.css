@@ -26,7 +26,7 @@ content: "d";
 }
 
 /* Coloured Name code */
-div.chatline span[style*="color:#33CC33"] [href*="Zaan"] .chatname { color: #FF69B4 !important; font-weight: bold; font-size 0pt;}
+div.chatline span[href*="Zaan"] .chatname { color: #FF69B4 !important; font-weight: bold; }
 
 /* for officer 
 div.chatline span[style*="color:#338833"] [href*="Zaan"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
