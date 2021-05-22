@@ -12,7 +12,7 @@ i.tpy::before { content: "["; }
 i.tpy::after { content: "] "; }
 
 /* [href*="[ Phoenix ] "] [href*="[ Officer ]"] */
-div.chatline span[content: "[Phoenix]X"].chatname { color: #c46622 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; font-size 150%; text-decoration: underline overline wavy #c46622; }
+div.chatline span[content: "[ Phoenix ] X"].chatname { color: #c46622 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; font-size 150%; text-decoration: underline overline wavy #c46622; }
 
 /* for officer */
 div.chatline [href*="[Officer]X"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
