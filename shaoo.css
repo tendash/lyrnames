@@ -14,11 +14,11 @@ i.shy::after { content: "] "; }
 
 
 /* for officer chat */
-div.chatline span[style*="color:#338833"] [href*="Shaoo"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: Wingdings,Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
+div.chatline span [href*="Shaoo"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: Wingdings,Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
 
-/* For guild chat */
+/* For guild chat 
 div.chatline span[style*="color:#33CC33"] [href*="Shaoo"] .chatname { color: #F7F570 !important;text-decoration: line-through;}
-
+*/
 
 
 
