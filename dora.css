@@ -13,4 +13,4 @@ i.doy::after { content: "] "; }
 i.dy::after {content: " Cornhole Specialist";}
     
 
-div.chatline span[style*="color:#33CC33"] [href*="BenDora"] .chatname { color:#FFA500 !important; }
+div.chatline span [href*="BenDora"] .chatname { color:#FFA500 !important; }
