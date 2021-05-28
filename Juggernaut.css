@@ -10,7 +10,8 @@ i.juy {
 i.juy::before { content: "["; }
 i.juy::after { content: "] "; }
 
-div.chatline span [href*="Cryptopotamus"] .chatname { color: #ffff43 !important; font-weight: bold; text-shadow: 0px 3px 2px rgba(255, 13, 6, 1); }
+div.chatline span [href*="Cryptopotamus"] .chatname { background: linear-gradient( red, green);  background-size: 200% auto;
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation:  scroll 10s infinite linear;}
 
 /* for officer 
 div.chatline span[style*="color:#338833"] [href*="Juggernaut"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
