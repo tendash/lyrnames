@@ -15,5 +15,5 @@ i.mky::after { content: "] "; }
 
 /* i.mk::after {content: " Second Rin";} */ 
     
-div.chatline span[href*="Monkeyman"] .chatname { color: #D4AF37 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; font-size 150%; }
+div.chatline span [href*="Monkeyman"] .chatname { color: #D4AF37 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; font-size 150%; }
 
