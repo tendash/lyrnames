@@ -13,5 +13,6 @@ i.dsy::after { content: "] "; }
 i.ds::after { content: " is OK"; }
 
 
-div.chatline span[style*="color:#33CC33"] [href*="DSantosP"] .chatname { color: #f00 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; }
-div.chatline span[style*="color:#338833"] [href*="DSantosP"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: Wingdings,Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
+div.chatline span [href*="DSantosP"] .chatname { color: #f00 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial; }
+/* div.chatline span[style*="color:#338833"] [href*="DSantosP"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: Wingdings,Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
+*/
