@@ -1,0 +1,28 @@
+/*rank css for RobZ*/
+i.rz {
+    color: #2C70F4;
+    }
+i.rzy { 
+    font-style: normal;
+    color: #ff0;
+}
+i.rzy::before { content: "["; }
+i.rzy::after { content: "] "; }
+
+/* [href*="[ Phoenix ] "] [href*="[ Officer ]"] */
+div.chatline span [href*="\"X\""] .chatname { color:#669999;
+  position:relative;
+  margin:0 auto;
+}
+@keyframes noise-anim{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+} }
+
+/* for officer 
+div.chatline [href*="[Officer]X"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
+*/
