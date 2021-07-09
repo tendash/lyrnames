@@ -1,6 +1,7 @@
 /*rank css for Ten*/
 i.tp {
-background-image: url(https://rawcdn.githack.com/tendash/lyrnames/4b5dc535189f66f809240d70ecc945b8f41b7742/Untitled.jpg)
+    font-style: normal;
+    color: #FF69B4; 
     }
 i.tpy { 
     font-style: normal;
@@ -8,7 +9,7 @@ i.tpy {
 }
 i.tpy::before { content: "["; }
 i.tpy::after { content: "] "; }
-
+i.tp:after { content: url(https://rawcdn.githack.com/tendash/lyrnames/4b5dc535189f66f809240d70ecc945b8f41b7742/Untitled.jpg)
 /* [href*="[ Phoenix ] "] [href*="[ Officer ]"] */
 div.chatline span [href*="\"X\""] .chatname { color: #c46622 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; font-size 150%; text-decoration: underline overline wavy #c46622; }
 
