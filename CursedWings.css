@@ -25,7 +25,7 @@ Can I try Cursed the purple color and Wings the other if possible? Hopefully I l
 
 /* div.chatline span [href*="CursedWings"] .chatname {   background: linear-gradient(to right, #ad2fea 0%,#ad2fea 53%, #e3d8e8 53%, #e3d8e8 100% ); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-family: Comic Sans MS, Verdana, Arial; font-weight: bold; font-size 150%; } */
 
- div.chatline span [href*="CursedWings"] .chatname {  color:#24F0D6; font-family: Comic Sans MS, Verdana, Arial; font-weight: bold; font-size 150%; }
+ div.chatline span [href*="CursedWings"] .chatname {  color:#FF1493; font-family: Comic Sans MS, Verdana, Arial; font-weight: bold; font-size 150%; }
 
 
 
