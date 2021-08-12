@@ -1,0 +1,66 @@
+/*rank css for lilbird <font color= #FFFF00>[7]</font> <font color= #008080>Map Scientist</font> */
+i.lb {
+    color: #008080;
+    }
+i.lby { 
+    font-style: normal;
+    color: #ff0;
+}
+i.lby::before { content: "["; }
+i.lby::after { content: "] "; }
+
+/* [href*="[ Phoenix ] "] [href*="[ Officer ]"] */
+div.chatline span [href*="LilBird"] .chatname { text-align: center;
+  text-decoration: underline;
+  font-family: monospace;
+  background: -webkit-gradient(linear, left top, right top, from(#008080), color-stop(#f8f6f6), color-stop(#015e5e), color-stop(#36d1d1), to(#008080));
+  background: -webkit-linear-gradient(left, #008080, #f8f6f6, #015e5e, #36d1d1, #008080);
+  background: -moz-linear-gradient(left, #008080, #f8f6f6, #015e5e, #36d1d1, #008080);
+  background: -o-linear-gradient(left, #008080, #f8f6f6, #015e5e, #36d1d1, #008080);
+  background: linear-gradient(to right, #008080, #f8f6f6, #015e5e, #36d1d1, #008080);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: niss-is-an-animated-noob 6s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+@-webkit-keyframes niss-is-an-animated-noob {
+  0%, 100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+@-moz-keyframes niss-is-an-animated-noob {
+  0%, 100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+@-o-keyframes niss-is-an-animated-noob {
+  0%, 100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes niss-is-an-animated-noob {
+  0%, 100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+}
