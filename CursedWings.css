@@ -4,7 +4,7 @@ i.cw {
     font-size 150%;
     font-family: Comic Sans MS, Arial, Verdana, sans-serif;
     color: #a339e4;
-    text-shadow: 2px 2px #FFF;
+    text-shadow: 2px 2px 2px #FFF;
     /* background: -webkit-linear-gradient(180deg,#2682de);
      color: #2682de ;
      -webkit-background-clip: text;
