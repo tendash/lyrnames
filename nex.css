@@ -1,0 +1,18 @@
+@import url('https://fonts.google.com/specimen/Cinzel+Decorative');
+@import url('https://fonts.google.com/specimen/Tangerine');
+/*rank css for nex/
+/* Rank Font */
+i.ne {
+       color: #31906E;
+       font-family: Cinzel Decorative;
+   }
+   
+/* code for Rank # */
+i.ney { 
+    font-style: normal;
+    color: #ff0;
+}
+i.ney::before { content: "["; }
+i.ney::after { content: "] "; }
+
+div.chatline span [href*="Nex"] .chatname { color: #3B9C9C; font-family: Tangerine; }
