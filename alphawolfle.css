@@ -1,5 +1,5 @@
-/*rank css for Krazee*/
-i.kr {
+/*rank css for Alphawolfie*/
+i.al {
   font-weight: bold;
   background: linear-gradient(to right, #FF0000, #FFFF00 , #000080 );
   background-size: 200% auto;
@@ -24,12 +24,12 @@ i.kr {
     }
 }
 
-i.kry { 
+i.aly { 
     font-style: normal;
     color: #ff0;
 }
-i.kry::before { content: "["; }
-i.kry::after { content: "] "; }
+i.aly::before { content: "["; }
+i.aly::after { content: "] "; }
 
 /* div.chatline span [href*="Alphawolfie"] .chatname { color: #880E4F  !important; font-weight: bold; font-family: Comic Sans MS} */
 
