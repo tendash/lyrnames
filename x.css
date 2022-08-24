@@ -34,8 +34,8 @@ div.chatline span [href*="\"X\""] .chatname::after {
   background: -webkit-linear-gradient(right, #fff, red, yellow, green, #fff);
   background: -moz-linear-gradient(right, #fff, red, yellow, green, #fff);
   background: -o-linear-gradient(right, #fff, red, yellow, green, #fff);
-  background: linear-gradient(to right, #fff, red, yellow, green, #fff);
+  background: linear-gradient(to right, #fff, red, yellow, green, #fff); */
   -webkit-background-clip: text;
   background-clip: text; 
-  color: transparent; */
+  color: transparent; 
 }
