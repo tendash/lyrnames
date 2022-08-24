@@ -35,7 +35,7 @@ div.chatline span [href*="\"X\""] .chatname::after {
   -webkit-background-clip: text;
   background-clip: text;  */
   font-variant: small-caps;
-  font-size 150%;
+  font-size 13px;
   color: #22c4bc;
   /* color: transparent; */
 }
