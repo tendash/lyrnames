@@ -27,7 +27,7 @@ div.chatline span [href*="\"X\""] .chatname::after {
   font-size: 13px;
   visibility: visible;
   text-align: center;
-  content: "DeezNUTZ";
+  content: "Professor X";
   background: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(red), color-stop(yellow), color-stop(green), to(#fff));
   background: -webkit-linear-gradient(right, #fff, red, yellow, green, #fff);
   background: -moz-linear-gradient(right, #fff, red, yellow, green, #fff);
