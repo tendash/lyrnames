@@ -9,6 +9,17 @@ i.moy {
 i.moy::before { content: "["; }
 i.moy::after { content: "] "; }
 
+div.chatline span [href*="Motodragon"] .chatname {
+  font-size: 0;
+  visibility: hidden;
+}
 
+div.chatline span [href*="Motodragon"] .chatname::after {
+  font-size: 13px;
+  visibility: visible;
+  text-align: center;
+  color: #F2383B !important; background: -webkit-linear-gradient(left, #F2383B , #FFFFFF , #F2383B );-webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: hue 30s infinite linear;font-family: "Arial Black";
+  content: "Motodragon is always late for gboss";
+  }
 
-div.chatline span [href*="Motodragon"] .chatname { color: #F2383B !important; background: -webkit-linear-gradient(left, #F2383B , #FFFFFF , #F2383B );-webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: hue 30s infinite linear;font-family: "Arial Black"; }
+/*div.chatline span [href*="Motodragon"] .chatname { color: #F2383B !important; background: -webkit-linear-gradient(left, #F2383B , #FFFFFF , #F2383B );-webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: hue 30s infinite linear;font-family: "Arial Black"; } */
