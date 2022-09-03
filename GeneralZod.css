@@ -30,4 +30,4 @@ i.kry {
 i.kry::before { content: "["; }
 i.kry::after { content: "] "; }
 
-div.chatline span [href*="GeneralZod"] .chatname { color: #cfc80a  !important; font-weight: bold; font-family: Comic Sans MS}
+div.chatline span [href*="BurtReynolds"] .chatname { color: #cfc80a  !important; font-weight: bold; font-family: Comic Sans MS}
