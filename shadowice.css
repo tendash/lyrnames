@@ -35,7 +35,7 @@ i.shady::after { content: "] "; }
 
 
 /* Coloured Name code */
-/* div.chatline span[style*="color:#33CC33"] [href*="Shadowice"] .chatname { color: #00a86b !important; font-weight: bold;} */
+div.chatline span[style*="color:#33CC33"] [href*="Shadowice"] .chatname { color: #00a86b !important; font-weight: bold;} 
 
 
 /* for officer */
