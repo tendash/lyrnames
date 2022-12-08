@@ -3,7 +3,7 @@ i.bc {
 	color: #0000FF
 		
 }
-i.bc::after { content: url("https://rawcdn.githack.com/tendash/lyrnames/d90d08cc3fa1d379f377af4671324981f25ddf3e/crayon.png")
+i.bc::after { content: url("https://rawcdn.githack.com/tendash/lyrnames/d90d08cc3fa1d379f377af4671324981f25ddf3e/crayon.png")}
 
 
 div.chatline span [href*="BlueCrayons"] .chatname {
