@@ -18,11 +18,11 @@ i.tpy::after { content: "] "; }
 div.chatline [href*="[Officer]X"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
 */
 
-div.chatline span [href*="\"X\""] .chatname {
+/* div.chatline span [href*="\"X\""] .chatname {
   font-size: 0;
   visibility: hidden;
 }
-
+*/
 /*div.chatline span [href*="\"X\""] .chatname::after {
   font-size: 13px;
   visibility: visible;
