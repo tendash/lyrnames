@@ -1,8 +1,9 @@
 i.bc {  
-	
+	font-style: normal;
+	color: #0000FF
 }
 
-i.bc::after { content: url("https://rawcdn.githack.com/tendash/lyrnames/0b774e576010f9c7a540b33c7b0aed0ec53129a2/crayon.png");}
+
 
 div.chatline span [href*="BlueCryons"] .chatname {
 	color: #FF0000 !important; font-weight: bold; font-family:Verdana, Arial; 
