@@ -23,10 +23,54 @@ div.chatline span [href*="\"X\""] .chatname {
   visibility: hidden;
 }
 
-div.chatline span [href*="\"X\""] .chatname::after {
+/*div.chatline span [href*="\"X\""] .chatname::after {
   font-size: 13px;
   visibility: visible;
   text-align: center;
   color: #22c4bc;
   content: "Professor X";
+}
+*/
+div.chatline span [href*="\"X\""] .chatname {
+    display: inline-block;
+    animation: rasta linear 7s infinite, wheee linear 10s infinite;
+}
+.tp {
+	font-style: normal;
+	animation: slide-forward 20s ease-in infinite;
+}
+
+.tp span {
+	animation: slide-reverse 20s ease-in infinite;
+}
+
+@keyframes rasta {
+    0%, 100% {color: red}
+    33% {color: yellow}
+    66% {color: green}
+}
+
+@keyframes wheee {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+@keyframes slide-forward {
+	0%, 100% {color: red}
+	15% {color: orange}
+	30% {color: yellow}
+	45% {color: green}
+	60% {color: blue}
+	75% {color: indigo}
+	90% {color: violet}
+}
+
+@keyframes slide-reverse {
+	0%, 100% {color: violet}
+	15% {color: indigo}
+	30% {color: blue}
+	45% {color: green}
+	60% {color: yellow}
+	75% {color: orange}
+	90% {color: red}
 }
