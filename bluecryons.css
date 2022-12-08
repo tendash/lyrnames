@@ -1,23 +1,8 @@
 i.bc {  
 	
-        font-style: normal;
-	color: #416396;
-	font-family: Verdana,Arial;
-	background-repeat-x: repeat;
-	background-image: url(https://rawcdn.githack.com/tendash/lyrnames/be1c0a300007a378b4bffddfee9b89d7ae38f689/crayon.png);
-	background-repeat: repeat;
-	position: relative;
-	height: 15px;
-	line-height: 12px;
-	margin: 0 34px 0 12px;
-	display:inline-block;
-	font-weight: bold;
-	font-size: 7pt;
-	vertical-align: middle;
-	font-style: italic;
-	text-shadow: 0px 0px 15px rgb(80,80,80);
 }
 
+i.bc::after { content: url("https://rawcdn.githack.com/tendash/lyrnames/be1c0a300007a378b4bffddfee9b89d7ae38f689/crayon.png");}
 
 div.chatline span [href*="BlueCryons"] .chatname {
 	color: #FF0000 !important; font-weight: bold; font-family:Verdana, Arial; 
