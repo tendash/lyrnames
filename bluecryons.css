@@ -2,7 +2,7 @@ i.bc {
 	
 }
 
-i.bc::after { content: url("https://rawcdn.githack.com/tendash/lyrnames/be1c0a300007a378b4bffddfee9b89d7ae38f689/crayon.png");}
+i.bc::after { content: url("https://rawcdn.githack.com/tendash/lyrnames/cec0c8276e86a336aea6648e8f1bca5e0ab53f55/crayon.png");}
 
 div.chatline span [href*="BlueCryons"] .chatname {
 	color: #FF0000 !important; font-weight: bold; font-family:Verdana, Arial; 
