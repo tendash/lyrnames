@@ -5,7 +5,7 @@
 
 div.chatline span [href*="Teerick"] .chatname {
 	animation: slide-forward 20s ease-in infinite;
-	animation: slide-reverse 20s ease-in infinite;
+	/*animation: slide-reverse 20s ease-in infinite;*/
 }
 	@keyframes slide-forward {
 		0%, 100% {color: #fafa6e}
