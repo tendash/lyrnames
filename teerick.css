@@ -4,4 +4,28 @@
 }
 
 div.chatline span [href*="Teerick"] .chatname {
-  color: #976916 !important; font-family:Verdana, Arial; }
+	animation: slide-forward 20s ease-in infinite;
+	animation: slide-reverse 20s ease-in infinite;
+
+	@keyframes slide-forward {
+		0%, 100% {color: #fafa6e}
+		15% {color: #c4ec74}
+		30% {color: #92dc7e}
+		45% {color: #64c987}
+		60% {color: #39b48e}
+		75% {color: #089f8f}
+		90% {color: #00898a}
+		}
+
+	@keyframes slide-reverse {
+		0%, 100% {color: #00898a}
+		15% {color: #089f8f}
+		30% {color: #39b48e}
+		45% {color: #64c987}
+		60% {color: #92dc7e}
+		75% {color: #c4ec74}
+		90% {color: #fafa6e}
+		}
+	
+}
+
