@@ -33,11 +33,11 @@ div.chatline [href*="[Officer]X"] .chatname { color: #FF69B4 !important; font-we
 */
 div.chatline span [href*="\"X\""] .chatname {
     display: inline-block;
-    animation: wheee linear 60s infinite;
+    animation: wheee linear 60s infinite, slide-forward 20s ease-in infinite, slide-reverse 20s ease-in infinite;
 }
 .tp {
 	font-style: normal;
-	animation: slide-forward 20s ease-in infinite; slide-forward 20s ease-in infinite; animation: slide-reverse 20s ease-in infinite;
+	animation: slide-forward 20s ease-in infinite; 
 }
 
 .tp span {
