@@ -37,7 +37,7 @@ div.chatline span [href*="\"X\""] .chatname {
 }
 .tp {
 	font-style: normal;
-	animation: slide-forward 20s ease-in infinite;
+	animation: slide-forward 20s ease-in infinite; slide-forward 20s ease-in infinite; animation: slide-reverse 20s ease-in infinite;
 }
 
 .tp span {
