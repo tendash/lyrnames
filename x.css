@@ -33,7 +33,7 @@ div.chatline [href*="[Officer]X"] .chatname { color: #FF69B4 !important; font-we
 */
 div.chatline span [href*="\"X\""] .chatname {
     display: inline-block;
-    animation: rasta linear 7s infinite, wheee linear 10s infinite;
+    animation: wheee linear 60s infinite;
 }
 .tp {
 	font-style: normal;
@@ -44,11 +44,6 @@ div.chatline span [href*="\"X\""] .chatname {
 	animation: slide-reverse 20s ease-in infinite;
 }
 
-@keyframes rasta {
-    0%, 100% {color: red}
-    33% {color: yellow}
-    66% {color: green}
-}
 
 @keyframes wheee {
     from {transform:rotate(0deg);}
@@ -56,21 +51,21 @@ div.chatline span [href*="\"X\""] .chatname {
 }
 
 @keyframes slide-forward {
-	0%, 100% {color: red}
-	15% {color: orange}
-	30% {color: yellow}
-	45% {color: green}
-	60% {color: blue}
-	75% {color: indigo}
-	90% {color: violet}
+	0%, 100% {color: #d96314}
+	15% {color: #b75311}
+	30% {color: #95420d}
+	45% {color: #73320a}
+	60% {color: #512107}
+	75% {color: #2f1103}
+	90% {color: #0d0000}
 }
 
 @keyframes slide-reverse {
-	0%, 100% {color: violet}
-	15% {color: indigo}
-	30% {color: blue}
-	45% {color: green}
-	60% {color: yellow}
-	75% {color: orange}
-	90% {color: red}
+	0%, 100% {color: #0d0000}
+	15% {color: #2f1103}
+	30% {color: #512107}
+	45% {color: #73320a}
+	60% {color: #95420d}
+	75% {color: #b75311}
+	90% {color: #d96314}
 }
