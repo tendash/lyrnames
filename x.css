@@ -1,48 +1,33 @@
 /*rank css for Ten*/
 i.tp {
     font-variant: small-caps;
-    font-size: 150%;
+    font-size: 100%;
     color: #22c4bc;
-    animation: spin-and-pulse 5s ease-in-out infinite;
+    animation: spin-and-pulse 5s ease-in-out infinite, font-glow 1s ease-in-out infinite;
+    text-shadow: 0 0 10px #22c4bc;
 }
 i.tpy { 
     font-style: normal;
     color: #ff0;
+    text-shadow: 0 0 10px #ff0;
 }
 i.tpy::before { content: "["; }
 i.tpy::after { content: "] "; }
 
-/* [href*="[ Phoenix ] "] [href*="[ Officer ]"] */
-/*div.chatline span [href*="\"X\""] .chatname { color: #22c4bc !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; font-size 150%; } */
-
-/* for officer 
-div.chatline [href*="[Officer]X"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
-*/
-
-/* div.chatline span [href*="\"X\""] .chatname {
-  font-size: 0;
-  visibility: hidden;
-}
-*/
-/*div.chatline span [href*="\"X\""] .chatname::after {
-  font-size: 13px;
-  visibility: visible;
-  text-align: center;
-  color: #22c4bc;
-  content: "Professor X";
-}
-*/
 div.chatline span [href*="\"X\""] .chatname {
     display: inline-block;
-    animation: spin-and-pulse 5s ease-in-out infinite;
+    animation: spin-and-pulse 5s ease-in-out infinite, font-glow 1s ease-in-out infinite;
+    text-shadow: 0 0 10px #22c4bc;
 }
 .tp {
 	font-style: normal;
-	animation: spin-and-pulse 5s ease-in-out infinite; 
+	animation: spin-and-pulse 5s ease-in-out infinite, font-glow 1s ease-in-out infinite; 
+	text-shadow: 0 0 10px #22c4bc;
 }
 
 .tp span {
-	animation: spin-and-pulse 5s ease-in-out infinite;
+	animation: spin-and-pulse 5s ease-in-out infinite, font-glow 1s ease-in-out infinite;
+	text-shadow: 0 0 10px #22c4bc;
 }
 
 @keyframes spin-and-pulse {
@@ -57,5 +42,17 @@ div.chatline span [href*="\"X\""] .chatname {
     100% {
         transform: rotate(720deg);
         color: #22c4bc;
+    }
+}
+
+@keyframes font-glow {
+    0% {
+        text-shadow: 0 0 10px #22c4bc;
+    }
+    50% {
+        text-shadow: 0 0 20px #22c4bc;
+    }
+    100% {
+        text-shadow: 0 0 10px #22c4bc;
     }
 }
