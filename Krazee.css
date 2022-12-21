@@ -1,41 +1,38 @@
-/* rank css for Krazee */
+/*rank css for Krazee*/
 i.kr {
-font-weight: bold;
-background: url('https://image.flaticon.com/icons/svg/3047/3047651.svg') no-repeat center; / spider image as background /
-background-size: contain; / size the background image to fit the element */
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
--webkit-animation: hue 15s infinite linear, scroll 7s infinite linear;
+  font-weight: bold;
+  background: linear-gradient(to right, #FF0000, #FFFF00 , #000080 );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 15s infinite linear, scroll 7s infinite linear;
 }
 
 @-webkit-keyframes hue {
-from {
--webkit-filter: hue-rotate(0deg);
-}
-to {
--webkit-filter: hue-rotate(-360deg);
-}
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
 }
 
 @-webkit-keyframes scroll {
-to {
-background-position: -200% center;
-}
-}
-
-i.kry {
-font-style: normal;
-color: #000; /* change color of text to match spider */
-}
-i.kry::before {
-content: "[";
-}
-i.kry::after {
-content: "] ";
+  to {
+    background-position: -200% center;
+    }
 }
 
-div.chatline span [href*="Krazee"] .chatname {
-color: #880E4F !important;
-font-weight: bold;
-font-family: Comic Sans MS;
+i.kry { 
+    font-style: normal;
+    color: #ff0;
 }
+i.kry::before { content: "["; }
+i.kry::after { content: "] "; }
+
+div.chatline span [href*="Krazee"] .chatname { color: #880E4F  !important; font-weight: bold; font-family: Comic Sans MS}
+
+/* for officer 
+div.chatline span[style*="color:#338833"] [href*="Krazee"] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
+*/
