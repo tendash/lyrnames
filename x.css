@@ -1,9 +1,10 @@
 /*rank css for Ten*/
 i.tp {
     font-variant: small-caps;
-    font-size 150%;
+    font-size: 150%;
     color: #22c4bc;
-    }
+    animation: spin-and-pulse 5s ease-in-out infinite;
+}
 i.tpy { 
     font-style: normal;
     color: #ff0;
@@ -33,39 +34,28 @@ div.chatline [href*="[Officer]X"] .chatname { color: #FF69B4 !important; font-we
 */
 div.chatline span [href*="\"X\""] .chatname {
     display: inline-block;
-    animation: wheee linear 60s infinite, slide-forward 20s ease-in infinite, slide-reverse 20s ease-in infinite;
+    animation: spin-and-pulse 5s ease-in-out infinite;
 }
 .tp {
 	font-style: normal;
-	animation: slide-forward 20s ease-in infinite; 
+	animation: spin-and-pulse 5s ease-in-out infinite; 
 }
 
 .tp span {
-	animation: slide-reverse 20s ease-in infinite;
+	animation: spin-and-pulse 5s ease-in-out infinite;
 }
 
-
-@keyframes wheee {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
-}
-
-@keyframes slide-forward {
-	0%, 100% {color: #d96314}
-	15% {color: #b75311}
-	30% {color: #95420d}
-	45% {color: #73320a}
-	60% {color: #512107}
-	75% {color: #2f1103}
-	90% {color: #0d0000}
-}
-
-@keyframes slide-reverse {
-	0%, 100% {color: #0d0000}
-	15% {color: #2f1103}
-	30% {color: #512107}
-	45% {color: #73320a}
-	60% {color: #95420d}
-	75% {color: #b75311}
-	90% {color: #d96314}
+@keyframes spin-and-pulse {
+    0% {
+        transform: rotate(0deg);
+        color: #22c4bc;
+    }
+    50% {
+        transform: rotate(360deg);
+        color: #00f;
+    }
+    100% {
+        transform: rotate(720deg);
+        color: #22c4bc;
+    }
 }
