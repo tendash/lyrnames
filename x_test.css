@@ -21,8 +21,8 @@ div.chatline span [href*="\"X\""] .chatname {
     display: inline-block;
     animation: spin-and-pulse 5s ease-in-out infinite, font-glow 1s ease-in-out infinite;
     text-shadow: 0 0 10px #22c4bc;
-}
-.tp {
+/*
+/.tp {
 	font-style: normal;
 	animation: spin-and-pulse 5s ease-in-out infinite, font-glow 1s ease-in-out infinite; 
 	text-shadow: 0 0 10px #22c4bc;
@@ -32,7 +32,7 @@ div.chatline span [href*="\"X\""] .chatname {
 	animation: spin-and-pulse 5s ease-in-out infinite, font-glow 1s ease-in-out infinite;
 	text-shadow: 0 0 10px #22c4bc;
 }
-
+*/
 @keyframes spin-and-pulse {
     0% {
         transform: rotate(0deg);
