@@ -1,22 +1,61 @@
 /*rank css for Ten*/
 i.tp {
-<link href='https://fonts.googleapis.com/css?family=Eater' rel='stylesheet'>
-<style>
-body {
-    font-family: 'Eater';
+  background-color: #000000;
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 5px;
+  border-radius: 5px;
+  text-shadow: 1px 1px 2px #FF0000;
+    
 }
-</style>
-    color: #c46622;
-    }
 i.tpy { 
     font-style: normal;
     color: #ff0;
+    text-shadow: 0 0 10px #ff0;
 }
 i.tpy::before { content: "["; }
 i.tpy::after { content: "] "; }
 
+div.chatline span [href*="\"X\""] .chatname {
+    display: inline-block;
+    animation: spin-and-pulse 5s ease-in-out infinite, font-glow 1s ease-in-out infinite;
+    text-shadow: 0 0 10px #22c4bc;
+}
+.tp {
+	font-style: normal;
+	animation: spin-and-pulse 5s ease-in-out infinite, font-glow 1s ease-in-out infinite; 
+	text-shadow: 0 0 10px #22c4bc;
+}
 
-div.chatline span[style*="color:#33CC33"] [href*="\"X\""] .chatname { color: #c46622 !important; font-weight: bold; font-family: Comic Sans MS, Verdana, Arial;font-variant: small-caps; font-size 150%; text-decoration: underline overline wavy #c46622; }
+.tp span {
+	animation: spin-and-pulse 5s ease-in-out infinite, font-glow 1s ease-in-out infinite;
+	text-shadow: 0 0 10px #22c4bc;
+}
 
-/* for officer */
-div.chatline span[style*="color:#338833"] [href*="\"X\""] .chatname { color: #FF69B4 !important; font-weight: bold; font-family: webdings, Comic Sans MS, Verdana, Arial; font-variant: small-caps;font-size 150%;}
+@keyframes spin-and-pulse {
+    0% {
+        transform: rotate(0deg);
+        color: #22c4bc;
+    }
+    50% {
+        transform: rotate(360deg);
+        color: #00f;
+    }
+    100% {
+        transform: rotate(720deg);
+        color: #22c4bc;
+    }
+}
+
+@keyframes font-glow {
+    0% {
+        text-shadow: 0 0 10px #22c4bc;
+    }
+    50% {
+        text-shadow: 0 0 20px #22c4bc;
+    }
+    100% {
+        text-shadow: 0 0 10px #22c4bc;
+    }
+}
