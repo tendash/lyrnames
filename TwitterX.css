@@ -1,0 +1,44 @@
+/*rank css for Ten*/
+i.tp {
+    font-variant: small-caps;
+    font-size: 100%;
+    color: #22c4bc;
+    animation: spin-and-pulse 5s ease-in-out infinite, font-glow 1s ease-in-out infinite;
+    text-shadow: 0 0 10px #22c4bc;
+}
+i.tpy { 
+    font-style: normal;
+    color: #ff0;
+    text-shadow: 0 0 10px #ff0;
+}
+i.tpy::before { content: "["; }
+i.tpy::after { content: "] "; }
+
+div.chatline span [href*="\"X\""] .chatname {
+    display: inline-block;
+    animation: font-glow 1s ease-in-out infinite;
+    text-shadow: 0 0 10px #22c4bc;
+}
+
+.tp {
+    font-style: normal;
+    animation: font-glow 1s ease-in-out infinite; 
+    text-shadow: 0 0 10px #22c4bc;
+}
+
+.tp span {
+    animation: font-glow 1s ease-in-out infinite;
+    text-shadow: 0 0 10px #22c4bc;
+}
+
+@keyframes font-glow {
+    0% {
+        text-shadow: 0 0 10px white; /* Start with a bright white glow */
+    }
+    50% {
+        text-shadow: 0 0 30px white; /* Increase the glow size */
+    }
+    100% {
+        text-shadow: 0 0 50px black; /* Fade to black glow */
+    }
+}
