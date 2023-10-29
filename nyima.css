@@ -6,10 +6,12 @@ i.ny {
     font-size 150%;
     font-family:Comic Sans MS, Arial, Verdana, sans-serif;
 }
-i.nyy { 
+/* i.nyy { 
     font-style: normal;
     color: #ff0;
 }
+*/
+
 /* i.nyy::before { content: "["; }
 i.nyy::after { content: "] "; }
 
