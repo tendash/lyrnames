@@ -10,11 +10,11 @@ i.nyy {
     font-style: normal;
     color: #ff0;
 }
-i.nyy::before { content: "["; }
+/* i.nyy::before { content: "["; }
 i.nyy::after { content: "] "; }
 
 i.ny::after {content: " What's a Gmap?";}
-    
+*/    
 
 div.chatline span[style*="color:#33CC33"] [href*="Nyima"] .chatname { color: #6666cc !important; font-weight: bold; font-family: Courier;font-size 250%;}
 
