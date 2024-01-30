@@ -3,8 +3,8 @@
 i.tp {
     font-variant: small-caps;
     font-size: 100%;
-    color: #22c4bc;
-    animation: flicker 5s ease-in-out infinite, font-glow 1s ease-in-out infinite;
+    color: #ffcc00; /* Traditional neon color */
+    animation: flicker 5s ease-in-out infinite, glow 1s ease-in-out infinite;
 }
 
 i.tpy {
@@ -23,16 +23,16 @@ i.tpy::after {
 
 div.chatline span [href*="\"X\""] .chatname {
     display: inline-block;
-    animation: flicker 5s ease-in-out infinite, font-glow 1s ease-in-out infinite;
+    animation: flicker 5s ease-in-out infinite, glow 1s ease-in-out infinite;
 }
 
 .tp {
     font-style: normal;
-    animation: flicker 5s ease-in-out infinite, font-glow 1s ease-in-out infinite;
+    animation: flicker 5s ease-in-out infinite, glow 1s ease-in-out infinite;
 }
 
 .tp span {
-    animation: flicker 5s ease-in-out infinite, font-glow 1s ease-in-out infinite;
+    animation: flicker 5s ease-in-out infinite, glow 1s ease-in-out infinite;
 }
 
 @keyframes flicker {
@@ -41,6 +41,47 @@ div.chatline span [href*="\"X\""] .chatname {
     }
     50% {
         opacity: 0.7;
+    }
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #ffcc00;
+    }
+    50% {
+        text-shadow: 0 0 20px #ffcc00, 0 0 30px #ffcc00;
+    }
+    100% {
+        text-shadow: 0 0 10px #ffcc00;
+    }
+    div.chatline span [href*="\"X\""] .chatname {
+    display: inline-block;
+    animation: spin-and-pulse 5s ease-in-out infinite, font-glow 1s ease-in-out infinite;
+    text-shadow: 0 0 10px #22c4bc;
+}
+.tp {
+	font-style: normal;
+	animation: spin-and-pulse 5s ease-in-out infinite, font-glow 1s ease-in-out infinite; 
+	text-shadow: 0 0 10px #22c4bc;
+}
+
+.tp span {
+	animation: spin-and-pulse 5s ease-in-out infinite, font-glow 1s ease-in-out infinite;
+	text-shadow: 0 0 10px #22c4bc;
+}
+
+@keyframes spin-and-pulse {
+    0% {
+        transform: rotate(0deg);
+        color: #22c4bc;
+    }
+    50% {
+        transform: rotate(360deg);
+        color: #00f;
+    }
+    100% {
+        transform: rotate(720deg);
+        color: #22c4bc;
     }
 }
 
