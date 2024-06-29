@@ -1,12 +1,11 @@
+/* Apply the animation to the name */
+.i.bat {
+  font-style: normal;
+  animation: nameColorChange 5s infinite; /* Change colors over 5 seconds, infinitely */
+}
 /* Define the keyframes for color changing */
 @keyframes nameColorChange {
   0% { color: #7FFF00; } /* Ghoulish green */
   50% { color: #8B0000; } /* Dark red */
   100% { color: #483D8B; } /* Dark slate blue */
-}
-
-/* Apply the animation to the name */
-.i.bat {
-  font-style: normal;
-  animation: nameColorChange 5s infinite; /* Change colors over 5 seconds, infinitely */
 }
