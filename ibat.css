@@ -7,5 +7,6 @@
 
 /* Apply the animation to the name */
 .i.bat {
+  font-style: normal;
   animation: nameColorChange 5s infinite; /* Change colors over 5 seconds, infinitely */
 }
