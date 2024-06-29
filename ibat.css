@@ -1,6 +1,4 @@
-/*rank css for iBat*/
-i.bat {
-  /* Define the keyframes for color changing */
+/* Define the keyframes for color changing */
 @keyframes nameColorChange {
   0% { color: #7FFF00; } /* Ghoulish green */
   50% { color: #8B0000; } /* Dark red */
@@ -8,7 +6,6 @@ i.bat {
 }
 
 /* Apply the animation to the name */
-.bat {
+.i.bat {
   animation: nameColorChange 5s infinite; /* Change colors over 5 seconds, infinitely */
-}
 }
