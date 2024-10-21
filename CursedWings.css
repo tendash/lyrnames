@@ -17,7 +17,6 @@ i.cw {
 div.chatline span [href*="CursedWings"] .chatname {
     font-family: Comic Sans MS, Verdana, Arial;
     font-weight: bold;
-    font-size: 150%; /* Missing colon corrected */
     color: #ff0055; /* Starting color: pink */
 
     /* Applying alternating colors per letter */
