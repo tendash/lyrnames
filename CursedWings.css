@@ -1,7 +1,7 @@
 /* Rank styling */
 i.cw {
     font-style: italic;
-    font-size: 150%; /* Missing colon corrected */
+    /*font-size: 150%; /* Missing colon corrected */
     font-family: Comic Sans MS, Arial, Verdana, sans-serif;
     color: #b3003b; /* Updated rank color */
     /* Other styles can be uncommented if needed */
