@@ -17,15 +17,8 @@ i.cw {
 div.chatline span [href*="CursedWings"] .chatname {
     font-family: Comic Sans MS, Verdana, Arial;
     font-weight: bold;
-    color: #ff0055; /* Starting color: pink */
-
-    /* Applying alternating colors per letter */
-}
-
-div.chatline span [href*="CursedWings"] .chatname span:nth-child(odd) {
-    color: #ff0055; /* Pink */
-}
-
-div.chatline span [href*="CursedWings"] .chatname span:nth-child(even) {
-    color: #ffffff; /* White */
+    font-size: 150%;
+    background: linear-gradient(90deg, #ff0055 50%, #ffffff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
