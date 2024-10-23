@@ -17,7 +17,7 @@ i.cw {
 div.chatline span [href*="CursedWings"] .chatname {
     font-family: Comic Sans MS, Verdana, Arial;
     font-weight: bold;
-    background: linear-gradient(90deg, #ff0055 51%, #ffffff 49%);
+    background: linear-gradient(90deg, #ff0055 52%, #ffffff 48%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
