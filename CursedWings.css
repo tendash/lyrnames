@@ -1,16 +1,9 @@
 /* Rank styling */
 i.cw {
     font-style: italic;
-    /*font-size: 150%; /* Missing colon corrected */
+    /*font-size: 150%; */
     font-family: Comic Sans MS, Arial, Verdana, sans-serif;
-    color: #b3003b; /* Updated rank color */
-    /* Other styles can be uncommented if needed */
-    /* text-shadow: 0px 0px 2px #FFF; */
-    /* background: -webkit-linear-gradient(180deg,#2682de);
-     color: #2682de ;
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     text-shadow:0 0 4px #FFF;  */
+    color: #b3003b; 
 }
 
 /* Name styling with alternating colors */
