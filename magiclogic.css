@@ -1,17 +1,1 @@
-div.chatline span[href*="magiclogic"].chatname {
-    color: #F2383B !important; /* Default color if gradient is not supported */
-    background: -webkit-linear-gradient(left, 
-        #7F00FF,          /* Violet */
-        #4B0082,          /* Indigo */
-        #CD7F32,         /* Bronze */
-        #800020,        /* Burgundy */
-        #FFFF00,          /* Yellow */
-        #FC5A8D,         /* Strawberry */
-        #FFD700,         /* Golden */
-        #C0C0C0           /* Silver */
-    );
-    -webkit-background-clip: text; /* Clips background to text */
-    -webkit-text-fill-color: transparent; /* Makes text color transparent to show the gradient */
-    -webkit-animation: hue 30s infinite linear; /* Applies a hue animation for color shifting */
-    font-family: "Arial Black"; /* Sets font to Arial Black */
-}
+div.chatline span [href*="magiclogic"] .chatname { color: #F2383B !important; background: -webkit-linear-gradient(left, #7F00FF, #4B0082, #CD7F32, #800020, #FFFF00, #FC5A8D, #FFD700, #C0C0C0);-webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: hue 30s infinite linear;font-family: "Arial Black"; }
