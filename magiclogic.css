@@ -1,0 +1,17 @@
+div.chatline span[href*="magiclogic"] .chatname {
+    color: #F2383B !important; /* Default color if gradient is not supported */
+    background: -webkit-linear-gradient(left, 
+        violet,          /* Violet */
+        indigo,          /* Indigo */
+        #CD7F32,         /* Bronze */
+        burgundy,        /* Burgundy */
+        yellow,          /* Yellow */
+        #FC5A8D,         /* Strawberry */
+        #FFD700,         /* Golden */
+        silver           /* Silver */
+    );
+    -webkit-background-clip: text; /* Clips background to text */
+    -webkit-text-fill-color: transparent; /* Makes text color transparent to show the gradient */
+    -webkit-animation: hue 30s infinite linear; /* Applies a hue animation for color shifting */
+    font-family: "Arial Black"; /* Sets font to Arial Black */
+}
