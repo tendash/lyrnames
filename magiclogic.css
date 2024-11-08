@@ -1,1 +1,18 @@
-div.chatline span [href*="magiclogic"] .chatname { color: #FF007F !important; background: -webkit-linear-gradient(left, #FF007F , #FFD700 );-webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: hue 30s infinite linear;font-family: "Arial Black"; }
+div.chatline span[href*="magiclogic"] .chatname { 
+  font-family: "Arial Black";
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(to right, #FFD700, #FF007F); /* Gold and rose gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
