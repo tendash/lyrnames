@@ -1,11 +1,19 @@
 div.chatline span[href*="magiclogic"] .chatname { 
   font-family: "Arial Black";
-  color: #FFD700 !important;
   background: linear-gradient(to right, #FFD700, #FF007F);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: scroll 7s infinite linear;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: -200% 50%;
+  }
 }
 
 @keyframes scroll {
