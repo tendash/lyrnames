@@ -3,10 +3,10 @@ div.chatline span[href*="magiclogic"] .chatname {
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: scroll2 7s infinite linear;
+  -webkit-animation: scrollmag 7s infinite linear;
 
 }
-@-webkit-keyframes scroll2 {
+@-webkit-keyframes scrollmag {
   to {
     background-position: -200% center;
     }
