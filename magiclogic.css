@@ -1,2 +1,4 @@
 
-div.chatline span[href="magiclogic"] .chatname { color: #F2383B }
+div.chatline span[href*="magiclogic"] .chatname {
+    color: #F2383B;
+}
