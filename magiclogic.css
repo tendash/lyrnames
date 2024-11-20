@@ -10,28 +10,5 @@ i.mly::before { content: "["; }
 i.mly::after { content: "] "; }
 
 
-
 div.chatline span[href*="magiclogic"] .chatname { 
-  font-weight: bold;
-  background: linear-gradient(to right, #FFD700, #FF007F, #FFD700);
-  background-size: 200% auto;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: huemagic 15s infinite linear, scrollmagic 7s infinite linear;
-}
-
-@-webkit-keyframes huemagic {
-  from {
-    -webkit-filter: hue-rotate(0deg);
-  }
-
-  to {
-    -webkit-filter: hue-rotate(-360deg);
-  }
-}
-
-@-webkit-keyframes scrollmagic {
-  to {
-    background-position: -200% center;
-    }
-}
+color: #F2383B !important; background: -webkit-linear-gradient(left, #FFD700, #FF007F, #FFD700 );-webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: hue 30s infinite linear;font-family: "Arial Black"; }
