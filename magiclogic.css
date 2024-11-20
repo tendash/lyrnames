@@ -12,16 +12,30 @@ i.mly::after { content: "] "; }
 
 
 div.chatline span[href*="magiclogic"] .chatname { 
-font-weight: bold;
-  background: linear-gradient(to right, #FFD700, #FF007F, #FFD700 );
+  font-weight: bold;
+  display: inline-block;
+  background: linear-gradient(to right, #FFD700, #FF007F, #FFD700);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: scroll2 7s infinite linear;
+  animation: scroll2 7s linear infinite;
+  -webkit-animation: scroll2 7s linear infinite; /* Webkit fallback */
+}
+
+@keyframes scroll2 {
+  from {
+    background-position: 0% center;
+  }
+  to {
+    background-position: -200% center;
+  }
 }
 
 @-webkit-keyframes scroll2 {
+  from {
+    background-position: 0% center;
+  }
   to {
     background-position: -200% center;
-    }
+  }
 }
