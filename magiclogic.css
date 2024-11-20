@@ -17,10 +17,10 @@ div.chatline span[href*="magiclogic"] .chatname {
   background-size: 300%; /* Larger background to allow smooth animation */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: colorShift 5s linear infinite; /* Animation for moving colors */
+ /* animation: colorShift 5s linear infinite; /* Animation for moving colors */
 }
 
-@keyframes colorShift {
+/* @keyframes colorShift {
   0% {
     background-position: 0% 50%;
   }
@@ -28,3 +28,4 @@ div.chatline span[href*="magiclogic"] .chatname {
     background-position: 100% 50%;
   }
 }
+*/
