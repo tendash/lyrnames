@@ -13,8 +13,6 @@ i.mly::after { content: "] "; }
 
 div.chatline span[href*="magiclogic"] .chatname { 
   font-family: "Arial Black";
-  display: inline-block;
-  white-space: nowrap;
   background: linear-gradient(90deg, #FFD700, #FF007F, #FFD700); /* Gold to rose and back */
   background-size: 300%; /* Larger background to allow smooth animation */
   -webkit-background-clip: text;
