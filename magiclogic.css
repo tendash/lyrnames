@@ -1,6 +1,6 @@
 /*rank css for Moto*/
 i.ml {
-    color: #FF007F;
+    color: #FFD700;
       }
 i.mly { 
     font-style: normal;
@@ -11,4 +11,4 @@ i.mly::after { content: "] "; }
 
 
 div.chatline span[href*="magiclogic"] .chatname { 
-color: #F2383B !important; background: -webkit-linear-gradient(left, #FFD700, #FF007F, #FFD700 );-webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: hue 30s infinite linear;font-family: "Arial Black"; }
+color: #FFD700 !important; background: -webkit-linear-gradient(left, #FFD700, #FF007F);-webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: hue 30s infinite linear;font-family: "Arial Black"; }
