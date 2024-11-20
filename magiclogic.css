@@ -12,20 +12,16 @@ i.mly::after { content: "] "; }
 
 
 div.chatline span[href*="magiclogic"] .chatname { 
-  font-family: "Arial Black";
-  background: linear-gradient(to right, #FFD700, #FF007F, #FFD700); /* Gold to rose and back */
-  background-size: 300%; /* Larger background to allow smooth animation */
+font-weight: bold;
+  background: linear-gradient(to right, #FFD700, #FF007F, #FFD700 );
+  background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
- /* animation: colorShift 5s linear infinite; /* Animation for moving colors */
+  -webkit-animation: scroll 7s infinite linear;
 }
 
-/* @keyframes colorShift {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 100% 50%;
-  }
+@-webkit-keyframes scroll {
+  to {
+    background-position: -200% center;
+    }
 }
-*/
