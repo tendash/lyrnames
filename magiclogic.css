@@ -17,10 +17,10 @@ font-weight: bold;
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: scroll 7s infinite linear;
+  -webkit-animation: scroll2 7s infinite linear;
 }
 
-@-webkit-keyframes scroll {
+@-webkit-keyframes scroll2 {
   to {
     background-position: -200% center;
     }
