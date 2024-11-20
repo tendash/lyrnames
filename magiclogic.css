@@ -11,19 +11,22 @@ i.mly::after { content: "] "; }
 
 
 
-div.chatline span [href*="magiclogic"] .chatname {   font-family: "Arial Black";
+div.chatline span[href*="magiclogic"] .chatname { 
+  font-family: "Arial Black";
   display: inline-block;
   white-space: nowrap;
-  background: linear-gradient(to right, #FFD700, #FF007F); /* Gold and rose gradient */
+  background: linear-gradient(90deg, #FFD700, #FF007F, #FFD700); /* Gold to rose and back */
+  background-size: 300%; /* Larger background to allow smooth animation */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: marquee 10s linear infinite; }
+  animation: colorShift 5s linear infinite; /* Animation for moving colors */
+}
 
-@keyframes marquee {
+@keyframes colorShift {
   0% {
-    transform: translateX(100%);
+    background-position: 0% 50%;
   }
   100% {
-    transform: translateX(-100%);
+    background-position: 100% 50%;
   }
 }
