@@ -12,3 +12,13 @@ i.mly::after { content: "] "; }
 
 div.chatline span[href*="magiclogic"] .chatname { 
 color: #FFD700 !important; background: -webkit-linear-gradient(left, #FFD700, #FF007F);-webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: hue 30s infinite linear;font-family: "Arial Black"; }
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
