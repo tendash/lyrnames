@@ -13,7 +13,7 @@ i.mly::after { content: "] "; }
 div.chatline span[href*="magiclogic"] .chatname { 
   font-weight: bold;
     background: linear-gradient(90deg, #FFD700, #FF007F, #FFD700);
-  background-size: 200% 100%;
+  background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: scroll-colors 3s linear infinite;
