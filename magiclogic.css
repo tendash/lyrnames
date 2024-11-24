@@ -12,7 +12,7 @@ i.mly::after { content: "] "; }
 
 div.chatline span[href*="magiclogic"] .chatname { 
   font-weight: bold;
-    background: linear-gradient(90deg, gold, rose, gold);
+    background: linear-gradient(90deg, #FFD700, #FF007F, #FFD700);
   background-size: 200% 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
