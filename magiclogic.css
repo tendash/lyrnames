@@ -1,4 +1,4 @@
-/*rank css for Moto*/
+/*rank css for magiclogic*/
 i.ml {
     color: #FFD700;
       }
@@ -6,9 +6,6 @@ i.mly {
     font-style: normal;
     color: #ff0;
 }
-i.mly::before { content: "["; }
-i.mly::after { content: "] "; }
-
 
 div.chatline span[href*="magiclogic"] .chatname { 
   font-weight: bold;
