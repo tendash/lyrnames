@@ -4,14 +4,14 @@ i.ml {
 }
 
 div.chatline span [href*="magiclogic"].chatname { 
-  background: linear-gradient(90deg, #FFD700, #FF007F, #FFD700);
+  /* background: linear-gradient(90deg, #FFD700, #FF007F, #FFD700);
     background-size: 200% 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: gradientScroll 3s linear infinite;
     display: inline-block;
-    
-   /* color: #880808; */
+    */
+    color: #880808; 
 }
 
 /* Define the animation for the gradient scroll */
