@@ -3,7 +3,7 @@ i.ml {
     color: #880808;
 }
 
-div.chatline span[href*="magiclogic"].chatname { 
+div.chatline span[href*="\"magiclogic\""].chatname { 
     background: linear-gradient(90deg, #FFD700, #FF007F, #FFD700);
     background-size: 200% 100%;
     -webkit-background-clip: text;
