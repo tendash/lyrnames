@@ -1,8 +1,6 @@
-/*rank css for magiclogic*/
+/* Rank CSS for MagicLogic */
 i.ml {
     color: #880808;
-      }
-
 }
 
 div.chatline span[href*="magiclogic"].chatname { 
@@ -11,6 +9,7 @@ div.chatline span[href*="magiclogic"].chatname {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: gradientScroll 3s linear infinite;
+    display: inline-block;
 }
 
 /* Define the animation for the gradient scroll */
@@ -22,4 +21,3 @@ div.chatline span[href*="magiclogic"].chatname {
         background-position: 200% 50%;
     }
 }
-
