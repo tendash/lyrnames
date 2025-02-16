@@ -5,7 +5,7 @@ i.ml {
 
 div.chatline span [href*="magiclogic"].chatname { 
   font-size: 13px;
-   background: linear-gradient(90deg, #FFD700, #FF007F, #FFD700);
+   background: -webkit-linear-gradient(90deg, #FFD700, #FF007F, #FFD700);
    -webkit-background-clip: text;
    color: transparent;
    animation: gradientScroll 3s linear infinite;
