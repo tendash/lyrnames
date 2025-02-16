@@ -1,10 +1,10 @@
 /*rank css for magiclogic*/
-i.ml {
+/*i.ml {
     color: #FFD700;
       }
 
 }
-
+*/
 div.chatline span[href*="magiclogic"].chatname { 
     background: linear-gradient(90deg, #FFD700, #FF007F, #FFD700);
     background-size: 200% 100%;
