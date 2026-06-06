@@ -7,7 +7,7 @@ i.tp {
   animation: gold-shine 3s ease-in-out infinite;
 }
 
-div.chatline span [href*='"X"'] .chatname {
+div.chatline span [href*="\"X\""] .chatname {
   display: inline-block;
   animation: gold-shine 3s ease-in-out infinite;
 }
