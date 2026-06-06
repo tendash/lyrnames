@@ -1,0 +1,36 @@
+* --- Rank badge [tp] --- */
+i.tpy {
+  font-style: normal;
+  color: #ff0;
+  text-shadow: 0 0 8px #ff0, 0 0 2px #ff0;
+  animation: badge-glow 1s ease-in-out infinite;
+}
+i.tpy::before { content: "["; }
+i.tpy::after  { content: "] "; }
+@keyframes badge-glow {
+  0%, 100% { text-shadow: 0 0 8px #ff0, 0 0 2px #ff0; }
+  50%      { text-shadow: 0 0 16px #ff0, 0 0 30px #ff080; }
+}
+
+/* --- Username selectors: Gold --- */
+i.tp {
+  font-variant: small-caps;
+  font-style: normal;
+  animation: gold-shine 3s ease-in-out infinite;
+}
+div.chatline span [href*='"X"'] .chatname {
+  display: inline-block;
+  animation: gold-shine 3s ease-in-out infinite;
+}
+.tp {
+  font-style: normal;
+  animation: gold-shine 3s ease-in-out infinite;
+}
+.tp span {
+  animation: gold-shine 3s ease-in-out infinite;
+}
+@keyframes gold-shine {
+  0%        { color: #ffd700; text-shadow: 0 0 10px #ffd700, 0 0 20px #ffaa00; }
+  30%       { color: #fff8dc; text-shadow: 0 0 18px #fff8dc, 0 0 35px #ffd700, 0 0 50px #ffaa0066; }
+  60%, 100% { color: #ffd700; text-shadow: 0 0 10px #ffd700, 0 0 20px #ffaa00; }
+}
